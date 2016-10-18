@@ -1,0 +1,9 @@
+{
+  "title":"Caffe image recognition (~300Mb)",
+  "desc":"crowd-benchmarking image recognition using standard Caffe Android library for CPU",
+  "files": [
+    {
+
+    }
+  ]
+}
