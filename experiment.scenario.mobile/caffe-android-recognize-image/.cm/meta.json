@@ -1,10 +1,11 @@
 {
   "title":"Caffe image recognition (~300Mb)",
+  "supported_abi":["arm64-v86", "armeabi-v7a"],
   "desc":"crowd-benchmarking image recognition using standard Caffe Android library for CPU",
   "files": [
     {
       "filename":"libcaffe.so",
-      "limits": ["cpu_abi":"arm64-v8a"],
+      "supported_abi": {"cpu_abi":"arm64-v8a"},
       "path":"code/0ef2b70e4791b83b/arm64-v8a",
       "md5":"358bb4245a3ed12c4f135644e4e457f6",
       "copy_to_app_space":"yes",
@@ -12,7 +13,7 @@
     },
     {
       "filename":"libcaffe.so",
-      "limits": ["cpu_abi":"armeabi-v7a"],
+      "supported_abi": {"cpu_abi":"armeabi-v7a"},
       "path":"code/0ef2b70e4791b83b/armeabi-v7a",
       "md5":"fc89625989153e11edc8809df5883da4",
       "copy_to_app_space":"yes",
@@ -20,7 +21,7 @@
     },
     {
       "filename":"classification",
-      "limits": ["cpu_abi":"arm64-v8a"],
+      "supported_abi": {"cpu_abi":"arm64-v8a"},
       "path":"code/6fa68c1b9805d268/arm64-v8a",
       "md5":"b1320e321397f02a94567a19bbbca058",
       "copy_to_app_space":"yes",
@@ -28,7 +29,7 @@
     },
     {
       "filename":"classification",
-      "limits": ["cpu_abi":"armeabi-v7a"],
+      "supported_abi": {"cpu_abi":"armeabi-v7a"},
       "path":"code/6fa68c1b9805d268/armeabi-v7a",
       "md5":"6aa3a04f377b5e11f6847941a60cc4d6",
       "copy_to_app_space":"yes",
