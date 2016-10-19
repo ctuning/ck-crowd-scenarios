@@ -85,7 +85,7 @@
     }
   ],
   "supported_abi": [
-    "arm64-v86",
+    "arm64-v8a",
     "armeabi-v7a"
   ],
   "title": "Caffe image recognition (~300Mb)"
