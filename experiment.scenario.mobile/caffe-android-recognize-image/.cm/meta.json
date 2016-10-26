@@ -88,5 +88,6 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
+  "min_os_ver":[5],
   "title": "Caffe image recognition (~300Mb)"
 }
