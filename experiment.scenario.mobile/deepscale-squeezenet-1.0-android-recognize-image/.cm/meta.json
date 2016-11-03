@@ -104,10 +104,10 @@
   "min_os_ver": [
     5
   ],
-  "skip": "yes",
+  "skip": "no",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "DeepScale Squeezenet 1.0 NN: image recognition (~60Mb)"
+  "title": "DeepScale Squeezenet 1.0 recognition (~60Mb)"
 }

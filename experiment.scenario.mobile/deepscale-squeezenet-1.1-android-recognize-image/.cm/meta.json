@@ -108,6 +108,6 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "skip": "yes",
-  "title": "DeepScale Squeezenet 1.1 NN: image recognition (~20Mb)"
+  "skip": "no",
+  "title": "DeepScale Squeezenet 1.1 recognition (~20Mb)"
 }
