@@ -5,9 +5,10 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 10462560,
       "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
       "md5": "358bb4245a3ed12c4f135644e4e457f6",
-      "from_data_uoa":"1046ff8d479dc6af",
       "path": "code/0ef2b70e4791b83b/arm64-v8a",
       "supported_abi": {
         "cpu_abi": "arm64-v8a"
@@ -16,9 +17,10 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 7121060,
       "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
       "md5": "fc89625989153e11edc8809df5883da4",
-      "from_data_uoa":"1046ff8d479dc6af",
       "path": "code/0ef2b70e4791b83b/armeabi-v7a",
       "supported_abi": {
         "cpu_abi": "armeabi-v7a"
@@ -27,8 +29,9 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 292992,
       "filename": "classification",
-      "from_data_uoa":"1046ff8d479dc6af",
+      "from_data_uoa": "1046ff8d479dc6af",
       "md5": "b1320e321397f02a94567a19bbbca058",
       "path": "code/6fa68c1b9805d268/arm64-v8a",
       "supported_abi": {
@@ -38,58 +41,68 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 239244,
       "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
       "path": "code/6fa68c1b9805d268/armeabi-v7a",
-      "from_data_uoa":"1046ff8d479dc6af",
       "supported_abi": {
         "cpu_abi": "armeabi-v7a"
       }
     },
     {
+      "file_size": 8124923,
       "filename": "mouse.jpg",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "c0ad9d49732610b6cb9c32f8f0d0ea65",
-      "path": "data/87f5e203c47544d6/demo"
+      "path": "data/4a6e91d75d682cec/demo"
     },
     {
+      "file_size": 31675,
       "filename": "synset_words.txt",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "4d234b5833aca44928065a180db3016a",
-      "path": "data/87f5e203c47544d6/labels"
+      "path": "data/4a6e91d75d682cec/labels"
     },
     {
+      "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
-      "path": "data/87f5e203c47544d6/mean"
+      "path": "data/4a6e91d75d682cec/mean"
     },
     {
+      "file_size": 9785,
       "filename": "deploy.prototxt",
       "md5": "6e119b277549b09fd229dcb6c01f2915",
       "path": "data/87f5e203c47544d6/topology"
     },
     {
+      "file_size": 781,
       "filename": "solver.prototxt",
       "md5": "abd856780c63348235d4f61f61bee316",
       "path": "data/87f5e203c47544d6/topology"
     },
     {
+      "file_size": 331,
       "filename": "quick_solver.prototxt",
       "md5": "6878af68f1ab465c0fa994b758ed6064",
       "path": "data/87f5e203c47544d6/topology"
     },
     {
+      "file_size": 11793,
       "filename": "train_val.prototxt",
       "md5": "d6875337bc50ac23b6b76de723b85c0f",
       "path": "data/87f5e203c47544d6/topology"
     },
     {
+      "file_size": 4436,
       "filename": "README.md",
       "md5": "be73835f20f25c8dbda9fffb832b17d2",
       "path": "data/87f5e203c47544d6/model"
     },
     {
+      "file_size": 1250,
       "filename": "LICENSE",
       "md5": "c3151f46f30fe67b468a0135e442aaeb",
       "path": "data/87f5e203c47544d6/model"
@@ -104,10 +117,10 @@
   "min_os_ver": [
     5
   ],
+  "skip": "no",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "skip": "no",
   "title": "DeepScale Squeezenet 1.1 recognition (~20Mb)"
 }

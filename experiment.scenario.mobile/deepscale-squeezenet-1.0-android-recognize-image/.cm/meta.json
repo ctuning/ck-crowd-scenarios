@@ -5,6 +5,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 10462560,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "358bb4245a3ed12c4f135644e4e457f6",
@@ -16,6 +17,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 7121060,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "fc89625989153e11edc8809df5883da4",
@@ -27,6 +29,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 292992,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "b1320e321397f02a94567a19bbbca058",
@@ -38,6 +41,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 239244,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
@@ -47,49 +51,58 @@
       }
     },
     {
+      "file_size": 8124923,
       "filename": "mouse.jpg",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "c0ad9d49732610b6cb9c32f8f0d0ea65",
-      "path": "data/9ef4c5b8d97a72b0/demo"
+      "path": "data/4a6e91d75d682cec/demo"
     },
     {
+      "file_size": 31675,
       "filename": "synset_words.txt",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "4d234b5833aca44928065a180db3016a",
-      "path": "data/9ef4c5b8d97a72b0/labels"
+      "path": "data/4a6e91d75d682cec/labels"
     },
     {
+      "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
-      "path": "data/9ef4c5b8d97a72b0/mean"
+      "path": "data/4a6e91d75d682cec/mean"
     },
     {
+      "file_size": 9640,
       "filename": "deploy.prototxt",
-      "md5": "cecd4ad08b74805f7141a1e7db080b84",
+      "md5": "ec33edbf17e082b3f5735fecc5a3d974",
       "path": "data/9ef4c5b8d97a72b0/topology"
     },
     {
+      "file_size": 331,
       "filename": "quick_solver.prototxt",
       "md5": "6878af68f1ab465c0fa994b758ed6064",
       "path": "data/9ef4c5b8d97a72b0/topology"
     },
     {
+      "file_size": 781,
       "filename": "solver.prototxt",
       "md5": "abd856780c63348235d4f61f61bee316",
       "path": "data/9ef4c5b8d97a72b0/topology"
     },
     {
+      "file_size": 11807,
       "filename": "train_val.prototxt",
-      "md5": "eabfb8e8c368094f4f377b78ff67444a",
+      "md5": "d63d3878bb44c3e7b1ec10029688a74f",
       "path": "data/9ef4c5b8d97a72b0/topology"
     },
     {
+      "file_size": 1250,
       "filename": "LICENSE",
       "md5": "c3151f46f30fe67b468a0135e442aaeb",
       "path": "data/9ef4c5b8d97a72b0/model"
     },
     {
+      "file_size": 3796,
       "filename": "README.md",
       "md5": "23bf63fe0485c90ffd6ff6141fc10efa",
       "path": "data/9ef4c5b8d97a72b0/model"

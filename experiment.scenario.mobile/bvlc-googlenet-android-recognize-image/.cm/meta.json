@@ -5,6 +5,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 10462560,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "358bb4245a3ed12c4f135644e4e457f6",
@@ -16,6 +17,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 7121060,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "fc89625989153e11edc8809df5883da4",
@@ -27,6 +29,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 292992,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "b1320e321397f02a94567a19bbbca058",
@@ -38,6 +41,7 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
+      "file_size": 239244,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
@@ -47,39 +51,46 @@
       }
     },
     {
+      "file_size": 8124923,
       "filename": "mouse.jpg",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "c0ad9d49732610b6cb9c32f8f0d0ea65",
-      "path": "data/9c398c1f074623b0/demo"
+      "path": "data/4a6e91d75d682cec/demo"
     },
     {
+      "file_size": 31675,
       "filename": "synset_words.txt",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "4d234b5833aca44928065a180db3016a",
-      "path": "data/9c398c1f074623b0/labels"
+      "path": "data/4a6e91d75d682cec/labels"
     },
     {
+      "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
-      "path": "data/9c398c1f074623b0/mean"
+      "path": "data/4a6e91d75d682cec/mean"
     },
     {
+      "file_size": 35862,
       "filename": "deploy.prototxt",
-      "md5": "955051d11e44bd29dd87a25dd766ec23",
+      "md5": "4a7281748d91b960ba86d681010d4aa2",
       "path": "data/9c398c1f074623b0/topology"
     },
     {
+      "file_size": 344,
       "filename": "solver.prototxt",
-      "md5": "252a04ee49b2bae0ac5ec3d78c0c55d6",
+      "md5": "96171082495190d51e13932f60d897cd",
       "path": "data/9c398c1f074623b0/topology"
     },
     {
+      "file_size": 39968,
       "filename": "train_val.prototxt",
-      "md5": "1df7257ddba14437be2ccb2e1a2db874",
+      "md5": "a4b18c8dd70498b76bb29c7622764e02",
       "path": "data/9c398c1f074623b0/topology"
     },
     {
+      "file_size": 2255,
       "filename": "readme.md",
       "md5": "84f3cdd446abd67e572cf09a16f0af72",
       "path": "data/9c398c1f074623b0/model"
