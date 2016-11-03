@@ -1,0 +1,113 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/87f5e203c47544d6/topology/deploy.prototxt $#local_path#$/openscience/data/87f5e203c47544d6/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/87f5e203c47544d6/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/87f5e203c47544d6/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and DeepScale Squeezenet 1.1 NN",
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "libcaffe.so",
+      "md5": "358bb4245a3ed12c4f135644e4e457f6",
+      "from_data_uoa":"1046ff8d479dc6af",
+      "path": "code/0ef2b70e4791b83b/arm64-v8a",
+      "supported_abi": {
+        "cpu_abi": "arm64-v8a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "libcaffe.so",
+      "md5": "fc89625989153e11edc8809df5883da4",
+      "from_data_uoa":"1046ff8d479dc6af",
+      "path": "code/0ef2b70e4791b83b/armeabi-v7a",
+      "supported_abi": {
+        "cpu_abi": "armeabi-v7a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "from_data_uoa":"1046ff8d479dc6af",
+      "md5": "b1320e321397f02a94567a19bbbca058",
+      "path": "code/6fa68c1b9805d268/arm64-v8a",
+      "supported_abi": {
+        "cpu_abi": "arm64-v8a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
+      "path": "code/6fa68c1b9805d268/armeabi-v7a",
+      "from_data_uoa":"1046ff8d479dc6af",
+      "supported_abi": {
+        "cpu_abi": "armeabi-v7a"
+      }
+    },
+    {
+      "filename": "mouse.jpg",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "c0ad9d49732610b6cb9c32f8f0d0ea65",
+      "path": "data/87f5e203c47544d6/demo"
+    },
+    {
+      "filename": "synset_words.txt",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/87f5e203c47544d6/labels"
+    },
+    {
+      "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/87f5e203c47544d6/mean"
+    },
+    {
+      "filename": "deploy.prototxt",
+      "md5": "6e119b277549b09fd229dcb6c01f2915",
+      "path": "data/87f5e203c47544d6/topology"
+    },
+    {
+      "filename": "solver.prototxt",
+      "md5": "abd856780c63348235d4f61f61bee316",
+      "path": "data/87f5e203c47544d6/topology"
+    },
+    {
+      "filename": "quick_solver.prototxt",
+      "md5": "6878af68f1ab465c0fa994b758ed6064",
+      "path": "data/87f5e203c47544d6/topology"
+    },
+    {
+      "filename": "train_val.prototxt",
+      "md5": "d6875337bc50ac23b6b76de723b85c0f",
+      "path": "data/87f5e203c47544d6/topology"
+    },
+    {
+      "filename": "README.md",
+      "md5": "be73835f20f25c8dbda9fffb832b17d2",
+      "path": "data/87f5e203c47544d6/model"
+    },
+    {
+      "filename": "LICENSE",
+      "md5": "c3151f46f30fe67b468a0135e442aaeb",
+      "path": "data/87f5e203c47544d6/model"
+    },
+    {
+      "filename": "squeezenet_v1.1.caffemodel",
+      "md5": "0357e4e11d173c72a01615888826bc8e",
+      "path": "data/87f5e203c47544d6/model",
+      "url": "https://github.com/DeepScale/SqueezeNet/blob/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel?raw=true"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "skip": "yes",
+  "title": "DeepScale Squeezenet 1.1 NN: image recognition (~20Mb)"
+}

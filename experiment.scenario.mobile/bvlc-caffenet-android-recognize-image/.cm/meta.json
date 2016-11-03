@@ -1,0 +1,95 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/4a6e91d75d682cec/topology/deploy.prototxt $#local_path#$/openscience/data/4a6e91d75d682cec/model/bvlc_reference_caffenet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and BVLC CaffeNet NN",
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "libcaffe.so",
+      "md5": "358bb4245a3ed12c4f135644e4e457f6",
+      "path": "code/0ef2b70e4791b83b/arm64-v8a",
+      "supported_abi": {
+        "cpu_abi": "arm64-v8a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "libcaffe.so",
+      "md5": "fc89625989153e11edc8809df5883da4",
+      "path": "code/0ef2b70e4791b83b/armeabi-v7a",
+      "supported_abi": {
+        "cpu_abi": "armeabi-v7a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "md5": "b1320e321397f02a94567a19bbbca058",
+      "path": "code/6fa68c1b9805d268/arm64-v8a",
+      "supported_abi": {
+        "cpu_abi": "arm64-v8a"
+      }
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
+      "path": "code/6fa68c1b9805d268/armeabi-v7a",
+      "supported_abi": {
+        "cpu_abi": "armeabi-v7a"
+      }
+    },
+    {
+      "filename": "mouse.jpg",
+      "md5": "c0ad9d49732610b6cb9c32f8f0d0ea65",
+      "path": "data/4a6e91d75d682cec/demo"
+    },
+    {
+      "filename": "synset_words.txt",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/4a6e91d75d682cec/labels"
+    },
+    {
+      "filename": "imagenet_mean.binaryproto",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/4a6e91d75d682cec/mean"
+    },
+    {
+      "filename": "deploy.prototxt",
+      "md5": "955051d11e44bd29dd87a25dd766ec23",
+      "path": "data/4a6e91d75d682cec/topology"
+    },
+    {
+      "filename": "solver.prototxt",
+      "md5": "252a04ee49b2bae0ac5ec3d78c0c55d6",
+      "path": "data/4a6e91d75d682cec/topology"
+    },
+    {
+      "filename": "train_val.prototxt",
+      "md5": "1df7257ddba14437be2ccb2e1a2db874",
+      "path": "data/4a6e91d75d682cec/topology"
+    },
+    {
+      "filename": "readme.md",
+      "md5": "dbe3e64604f8f297f5ac21fcb18cf6ee",
+      "path": "data/4a6e91d75d682cec/model"
+    },
+    {
+      "filename": "bvlc_reference_caffenet.caffemodel",
+      "md5": "af678f0bd3cdd2437e35679d88665170",
+      "path": "data/4a6e91d75d682cec/model",
+      "url": "http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "title": "BVLC CaffeNet NN: image recognition (~300Mb)"
+}
