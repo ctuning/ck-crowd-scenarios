@@ -8,6 +8,7 @@
       "file_size": 10605904,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
       "md5": "ce68f9970503fd8b8dfb29412b71b126",
       "path": "code/0ef2b70e4791b83b/arm64-v8a",
       "supported_abi": [
@@ -20,6 +21,7 @@
       "file_size": 7121060,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
       "md5": "fc89625989153e11edc8809df5883da4",
       "path": "code/0ef2b70e4791b83b/armeabi-v7a",
       "supported_abi": [
@@ -51,6 +53,7 @@
       ]
     },
     {
+      "default_image": "yes",
       "file_size": 7519011,
       "filename": "mouse1.jpg",
       "from_data_uoa": "1046ff8d479dc6af",
