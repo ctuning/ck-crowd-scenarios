@@ -1,5 +1,5 @@
 {
-  "cmd": "./classification $#local_path#$/openscience/data/87f5e203c47544d6/topology/deploy.prototxt $#local_path#$/openscience/data/87f5e203c47544d6/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/87f5e203c47544d6/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/87f5e203c47544d6/labels/synset_words.txt $#image#$",
+  "cmd": "./classification $#local_path#$/openscience/data/87f5e203c47544d6/topology/deploy.prototxt $#local_path#$/openscience/data/87f5e203c47544d6/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
   "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and DeepScale Squeezenet 1.1 NN",
   "files": [
     {

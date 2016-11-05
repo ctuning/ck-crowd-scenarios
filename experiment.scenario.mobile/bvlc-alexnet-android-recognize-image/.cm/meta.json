@@ -1,5 +1,5 @@
 {
-  "cmd": "./classification $#local_path#$/openscience/data/ba4eb06e64795b0d/topology/deploy.prototxt $#local_path#$/openscience/data/ba4eb06e64795b0d/model/bvlc_alexnet.caffemodel $#local_path#$/openscience/data/ba4eb06e64795b0d/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/ba4eb06e64795b0d/labels/synset_words.txt $#image#$",
+  "cmd": "./classification $#local_path#$/openscience/data/ba4eb06e64795b0d/topology/deploy.prototxt $#local_path#$/openscience/data/ba4eb06e64795b0d/model/bvlc_alexnet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
   "desc": "crowd-benchmarking image recognition using Caffe Android library for CPU and BVLC AlexNet NN",
   "files": [
     {
