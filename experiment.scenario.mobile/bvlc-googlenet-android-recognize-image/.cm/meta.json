@@ -10,9 +10,7 @@
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "358bb4245a3ed12c4f135644e4e457f6",
       "path": "code/0ef2b70e4791b83b/arm64-v8a",
-      "supported_abi": {
-        "cpu_abi": "arm64-v8a"
-      }
+      "supported_abi": ["arm64-v8a"]
     },
     {
       "copy_to_app_space": "yes",
@@ -22,9 +20,7 @@
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "fc89625989153e11edc8809df5883da4",
       "path": "code/0ef2b70e4791b83b/armeabi-v7a",
-      "supported_abi": {
-        "cpu_abi": "armeabi-v7a"
-      }
+      "supported_abi": ["armeabi-v7a"]
     },
     {
       "copy_to_app_space": "yes",
@@ -34,9 +30,7 @@
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "b1320e321397f02a94567a19bbbca058",
       "path": "code/6fa68c1b9805d268/arm64-v8a",
-      "supported_abi": {
-        "cpu_abi": "arm64-v8a"
-      }
+      "supported_abi": ["arm64-v8a"]
     },
     {
       "copy_to_app_space": "yes",
@@ -46,9 +40,7 @@
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
       "path": "code/6fa68c1b9805d268/armeabi-v7a",
-      "supported_abi": {
-        "cpu_abi": "armeabi-v7a"
-      }
+      "supported_abi": ["armeabi-v7a"]
     },
     {
       "file_size": 8124923,
@@ -105,7 +97,7 @@
   "min_os_ver": [
     5
   ],
-  "skip": "yes",
+  "skip": "no",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
