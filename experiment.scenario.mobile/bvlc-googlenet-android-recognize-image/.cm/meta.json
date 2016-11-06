@@ -99,8 +99,10 @@
       "path": "data/9c398c1f074623b0/model"
     },
     {
+      "file_size": 53533754,
       "filename": "bvlc_googlenet.caffemodel",
       "md5": "dc05671f0443708da1b0d0ae0e0c9cad",
+      "model_weights": "yes",
       "path": "data/9c398c1f074623b0/model",
       "url": "http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel"
     }
@@ -113,5 +115,5 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "BVLC GoogleNet recognition (~60Mb)"
+  "title": "BVLC GoogleNet recognition"
 }

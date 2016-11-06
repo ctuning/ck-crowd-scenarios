@@ -111,8 +111,10 @@
       "path": "data/9ef4c5b8d97a72b0/model"
     },
     {
+      "file_size": 5001403,
       "filename": "squeezenet_v1.0.caffemodel",
       "md5": "bb9a2fd4be158e5b1e58a5cdc2b4aaa8",
+      "model_weights": "yes",
       "path": "data/9ef4c5b8d97a72b0/model",
       "url": "https://github.com/DeepScale/SqueezeNet/blob/master/SqueezeNet_v1.0/squeezenet_v1.0.caffemodel?raw=true"
     }
@@ -125,5 +127,5 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "DeepScale Squeezenet 1.0 recognition (~60Mb)"
+  "title": "Squeezenet 1.0 recognition"
 }

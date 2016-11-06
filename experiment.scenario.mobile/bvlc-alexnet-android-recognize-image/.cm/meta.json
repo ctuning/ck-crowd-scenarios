@@ -99,8 +99,10 @@
       "path": "data/ba4eb06e64795b0d/model"
     },
     {
+      "file_size": 243862414,
       "filename": "bvlc_alexnet.caffemodel",
       "md5": "29eb495b11613825c1900382f5286963",
+      "model_weights": "yes",
       "path": "data/ba4eb06e64795b0d/model",
       "url": "http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel"
     }
@@ -112,5 +114,5 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "BVLC AlexNet recognition (~240Mb)"
+  "title": "BVLC AlexNet recognition"
 }

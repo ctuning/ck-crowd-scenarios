@@ -92,8 +92,10 @@
       "path": "data/4a6e91d75d682cec/model"
     },
     {
+      "file_size": 243862418,
       "filename": "bvlc_reference_caffenet.caffemodel",
       "md5": "af678f0bd3cdd2437e35679d88665170",
+      "model_weights": "yes",
       "path": "data/4a6e91d75d682cec/model",
       "url": "http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel"
     }
@@ -105,5 +107,5 @@
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "BVLC CaffeNet recognition (~300Mb)"
+  "title": "BVLC CaffeNet recognition"
 }
