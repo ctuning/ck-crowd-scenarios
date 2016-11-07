@@ -1,6 +1,7 @@
 {
   "cmd": "./classification $#local_path#$/openscience/data/9c398c1f074623b0/topology/deploy.prototxt $#local_path#$/openscience/data/9c398c1f074623b0/model/bvlc_googlenet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
   "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and BVLC GoogleNet NN",
+  "engine": "Caffe CPU",
   "files": [
     {
       "copy_to_app_space": "yes",
@@ -110,10 +111,11 @@
   "min_os_ver": [
     5
   ],
+  "model": "BVLC GoogleNet",
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "BVLC GoogleNet recognition"
+  "title": "Caffe CPU: BVLC GoogleNet img"
 }
