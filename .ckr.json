@@ -1,6 +1,14 @@
 {
   "data_name": "ck-crowd-scenarios",
   "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-caffe"
+      }
+    ], 
     "url": "https://github.com/ctuning/ck-crowd-scenarios",
     "shared": "git"
   },
