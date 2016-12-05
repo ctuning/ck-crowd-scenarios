@@ -59,6 +59,20 @@ Android application send benchmarking and optimization statistic as a JSON blob
 to the module 'experiment.bench.caffe.mobile' (function process) 
 from the [ck-caffe](https://github.com/dividiti/ck-caffe) repo.
 
+Generating libcaffe.so and classification via CK
+================================================
+It is possible to automatically generate libcaffe.so and classification
+for ARM64 and ARM32 via CK with all meta via:
+```
+$ ck generate experiment.bench.caffe.mobile
+```
+
+This module is available in 'ck-caffe' repository.
+
+Note, that if outdated lib and bin are found, they will be removed.
+Therefore, please copy old files manually to the 'ck-crowd-scenarios-arc' repo
+before using this command!
+
 Public results
 ==============
 
