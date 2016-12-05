@@ -142,7 +142,7 @@
       "filename": "libcaffe.so",
       "library": "yes",
       "md5": "9623ede8555e0e58e7c6b806fce8d4ab",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/a779425ab5ad2606/arm64-v8a",
+      "path": "code/a779425ab5ad2606/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -154,7 +154,7 @@
       "filename": "libcaffe.so",
       "library": "yes",
       "md5": "a0538b03458ac507765a073de61f2004",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/a779425ab5ad2606/armeabi-v7a",
+      "path": "code/a779425ab5ad2606/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
@@ -166,7 +166,7 @@
       "filename": "librtlxopenme.so",
       "library": "yes",
       "md5": "223fffd6cc48ae405127bf59fc50d255",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/54e1e209fe44fb83/arm64-v8a",
+      "path": "code/54e1e209fe44fb83/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -178,7 +178,7 @@
       "filename": "librtlxopenme.so",
       "library": "yes",
       "md5": "050196a755de2e24a17ceda335f02640",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/54e1e209fe44fb83/armeabi-v7a",
+      "path": "code/54e1e209fe44fb83/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
@@ -189,7 +189,7 @@
       "file_size": 7591088,
       "filename": "classification",
       "md5": "11de3f88fc0d1d6448a24d8b0b7d5e23",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/205a3542231ac3c1/arm64-v8a",
+      "path": "code/205a3542231ac3c1/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -200,7 +200,7 @@
       "file_size": 5204344,
       "filename": "classification",
       "md5": "cc063a74c0a8144b09feae26be2ee408",
-      "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/205a3542231ac3c1/armeabi-v7a",
+      "path": "code/205a3542231ac3c1/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
