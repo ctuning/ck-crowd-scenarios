@@ -167,7 +167,7 @@
       "file_size": 7591088,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "d6807c61cc6468f7ad7a7fdf635766a4",
+      "md5": "11de3f88fc0d1d6448a24d8b0b7d5e23",
       "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/205a3542231ac3c1/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -179,7 +179,7 @@
       "file_size": 5204344,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "275ea48b8a643b84177733b4f7f3aa19",
+      "md5": "cc063a74c0a8144b09feae26be2ee408",
       "path": "/home/fursin/CK/ck-crowd-scenarios/experiment.scenario.mobile/bvlc-caffenet-android-recognize-image/code/205a3542231ac3c1/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
