@@ -1,1 +1,2 @@
 20161205 * updated libcaffe.so and classification for ARM64 and ARM32 fully generated via CK with all meta
+         * added librtlxopenme.so
