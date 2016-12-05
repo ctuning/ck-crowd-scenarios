@@ -18,8 +18,9 @@ Prerequisites
 Authors
 =======
 
-* Grigori Fursin, dividiti (UK)
-* Anton Lokhmotov, dividiti (UK)
+* Grigori Fursin, dividiti
+* Anton Lokhmotov, dividiti
+* Daniil Efremov, Xored
 
 License
 =======
