@@ -38,17 +38,6 @@ $ sudo pip install ck
  $ ck pull repo:ck-crowd-scenarios
 ```
 
-Update
-======
-
-When new scenario is available, you should run the following command
-from ck-crowdtuning repository to process all meta
-and automatically calculate MD5, file sizes, etc:
-
-```
- $ ck process experiment.scenario.mobile
-```
-
 Android application
 ===================
 
@@ -72,6 +61,14 @@ This module is available in 'ck-caffe' repository.
 Note, that if outdated lib and bin are found, they will be removed.
 Therefore, please copy old files manually to the 'ck-crowd-scenarios-arc' repo
 before using this command!
+
+When new scenario is available, you should run the following command
+from ck-crowdtuning repository on server sie to process all meta
+and automatically calculate MD5, file sizes, URL, etc:
+
+```
+ $ ck process experiment.scenario.mobile
+```
 
 Public results
 ==============
