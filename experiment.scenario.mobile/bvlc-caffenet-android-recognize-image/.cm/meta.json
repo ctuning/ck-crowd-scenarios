@@ -162,11 +162,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 9988,
+      "file_size": 12600,
       "filename": "librtlxopenme.so",
       "library": "yes",
-      "md5": "223fffd6cc48ae405127bf59fc50d255",
-      "path": "code/54e1e209fe44fb83/arm64-v8a",
+      "md5": "194251ec732b525a9051407df3484ac1",
+      "path": "code/9a99d988de92928d/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -174,11 +174,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 7324,
+      "file_size": 17804,
       "filename": "librtlxopenme.so",
       "library": "yes",
-      "md5": "050196a755de2e24a17ceda335f02640",
-      "path": "code/54e1e209fe44fb83/armeabi-v7a",
+      "md5": "b7851df26147ac994d97be360af1fda6",
+      "path": "code/9a99d988de92928d/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
