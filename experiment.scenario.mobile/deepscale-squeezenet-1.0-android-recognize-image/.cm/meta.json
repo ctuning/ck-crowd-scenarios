@@ -281,11 +281,11 @@
   "min_os_ver": [
     5
   ],
-  "model": "DeepScale Squeezenet 1.0",
+  "model": "DeepScale SqueezeNet 1.0",
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
   ],
-  "title": "Caffe CPU: Squeezenet 1.0"
+  "title": "Caffe CPU: SqueezeNet 1.0"
 }
