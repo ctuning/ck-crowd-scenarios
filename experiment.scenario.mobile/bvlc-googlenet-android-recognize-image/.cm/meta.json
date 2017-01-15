@@ -258,6 +258,10 @@
     5
   ],
   "model": "BVLC GoogleNet",
+  "features":{
+    "accuracy":0.689299,
+    "accuracy_top5":0.891441
+  },
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",

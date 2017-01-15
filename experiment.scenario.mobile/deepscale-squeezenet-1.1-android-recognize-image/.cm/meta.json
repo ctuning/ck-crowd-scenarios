@@ -270,6 +270,10 @@
     5
   ],
   "model": "DeepScale SqueezeNet 1.1",
+  "features":{
+    "accuracy":0.58388,
+    "accuracy_top5":0.810123
+  },
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",
