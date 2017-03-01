@@ -272,7 +272,8 @@
   "model": "DeepScale SqueezeNet 1.0",
   "features":{
     "accuracy":0.576801,
-    "accuracy_top5":0.803903
+    "accuracy_top5":0.803903,
+    "fixed_batch_size":10
   },
   "skip": "no",
   "supported_abi": [

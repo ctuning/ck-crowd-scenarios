@@ -260,7 +260,8 @@
   "model": "BVLC AlexNet",
   "features":{
     "accuracy":0.568279,
-    "accuracy_top5":0.799501
+    "accuracy_top5":0.799501,
+    "fixed_batch_size":10
   },
   "supported_abi": [
     "arm64-v8a",
