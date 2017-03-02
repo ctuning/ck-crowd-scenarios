@@ -1,16 +1,10 @@
 {
-  "cmd": "./classification $#local_path#$/openscience/data/416b9f941c8af352/topology/deploy.prototxt $#local_path#$/openscience/data/416b9f941c8af352/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/6a8ac49e4891b63d/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/6a8ac49e4891b63d/labels/synset_words.txt $#image#$",
+  "cmd": "./classification $#local_path#$/openscience/data/87f5e203c47544d6/topology/deploy.prototxt $#local_path#$/openscience/data/87f5e203c47544d6/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
   "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and DeepScale Squeezenet 1.1 NN",
   "engine": "Caffe CPU",
   "engine_meta": {
     "arm64-v8a": {
       "deps_versions": {
-        "boost": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
-          "tags": "lib,boost",
-          "version": "1.62.0"
-        },
         "compiler": {
           "iso_datetime_cut_revision": "",
           "revision": "",
@@ -18,10 +12,10 @@
           "version": "4.9.x"
         },
         "lib-blas": {
-          "iso_datetime_cut_revision": "20160831-85636ff",
-          "revision": "85636ff",
+          "iso_datetime_cut_revision": "20161202-433edc7",
+          "revision": "433edc7",
           "tags": "lib,blas,openblas",
-          "version": "0.2.19-85636ff"
+          "version": "development-433edc7"
         },
         "lib-boost": {
           "iso_datetime_cut_revision": "",
@@ -30,40 +24,34 @@
           "version": "1.62.0"
         },
         "lib-caffe": {
-          "iso_datetime_cut_revision": "20170221-f3ba72c",
-          "revision": "f3ba72c",
-          "tags": "lib,caffe,vcpu",
-          "version": "trunk-f3ba72c"
+          "iso_datetime_cut_revision": "20160816-080c238",
+          "revision": "080c238",
+          "tags": "lib,caffe",
+          "version": "trunk-080c238"
         },
         "lib-gflags": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
+          "iso_datetime_cut_revision": "20150324-1a02f28",
+          "revision": "1a02f28",
           "tags": "lib,gflags",
-          "version": "2.2.0"
+          "version": "development-1a02f28"
         },
         "lib-glog": {
-          "iso_datetime_cut_revision": "20170209-ab65454",
-          "revision": "ab65454",
+          "iso_datetime_cut_revision": "20161020-b6a5e05",
+          "revision": "b6a5e05",
           "tags": "lib,glog",
-          "version": "development-ab65454"
+          "version": "development-b6a5e05"
         },
         "lib-opencv": {
-          "iso_datetime_cut_revision": "20170302-8e8da3f",
-          "revision": "8e8da3f",
+          "iso_datetime_cut_revision": "20161202-4a095e4",
+          "revision": "4a095e4",
           "tags": "lib,opencv",
-          "version": "development-8e8da3f"
+          "version": "development-4a095e4"
         },
         "lib-protobuf": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
+          "iso_datetime_cut_revision": "20161202-6b60ddd",
+          "revision": "6b60ddd",
           "tags": "lib,protobuf",
-          "version": "3.1.0"
-        },
-        "lib-protobuf-host": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
-          "tags": "lib,protobuf-host",
-          "version": ""
+          "version": "development-6b60ddd"
         },
         "xopenme": {
           "iso_datetime_cut_revision": "",
@@ -72,16 +60,10 @@
           "version": "0.3"
         }
       },
-      "program_version": "1.5.0"
+      "program_version": "1.0.0"
     },
     "armeabi-v7a": {
       "deps_versions": {
-        "boost": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
-          "tags": "lib,boost",
-          "version": "1.62.0"
-        },
         "compiler": {
           "iso_datetime_cut_revision": "",
           "revision": "",
@@ -89,10 +71,10 @@
           "version": "4.9.x"
         },
         "lib-blas": {
-          "iso_datetime_cut_revision": "20160831-85636ff",
-          "revision": "85636ff",
+          "iso_datetime_cut_revision": "20161202-433edc7",
+          "revision": "433edc7",
           "tags": "lib,blas,openblas",
-          "version": "0.2.19-85636ff"
+          "version": "development-433edc7"
         },
         "lib-boost": {
           "iso_datetime_cut_revision": "",
@@ -101,40 +83,34 @@
           "version": "1.62.0"
         },
         "lib-caffe": {
-          "iso_datetime_cut_revision": "20170221-f3ba72c",
-          "revision": "f3ba72c",
-          "tags": "lib,caffe,vcpu",
-          "version": "trunk-f3ba72c"
+          "iso_datetime_cut_revision": "20160816-080c238",
+          "revision": "080c238",
+          "tags": "lib,caffe",
+          "version": "trunk-080c238"
         },
         "lib-gflags": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
+          "iso_datetime_cut_revision": "20150324-1a02f28",
+          "revision": "1a02f28",
           "tags": "lib,gflags",
-          "version": "2.2.0"
+          "version": "development-1a02f28"
         },
         "lib-glog": {
-          "iso_datetime_cut_revision": "20170209-ab65454",
-          "revision": "ab65454",
+          "iso_datetime_cut_revision": "20161020-b6a5e05",
+          "revision": "b6a5e05",
           "tags": "lib,glog",
-          "version": "development-ab65454"
+          "version": "development-b6a5e05"
         },
         "lib-opencv": {
-          "iso_datetime_cut_revision": "20170302-8e8da3f",
-          "revision": "8e8da3f",
+          "iso_datetime_cut_revision": "20161204-c48d7f8",
+          "revision": "c48d7f8",
           "tags": "lib,opencv",
-          "version": "development-8e8da3f"
+          "version": "development-c48d7f8"
         },
         "lib-protobuf": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
+          "iso_datetime_cut_revision": "20161203-f1ce60e",
+          "revision": "f1ce60e",
           "tags": "lib,protobuf",
-          "version": "3.1.0"
-        },
-        "lib-protobuf-host": {
-          "iso_datetime_cut_revision": "",
-          "revision": "",
-          "tags": "lib,protobuf-host",
-          "version": ""
+          "version": "development-f1ce60e"
         },
         "xopenme": {
           "iso_datetime_cut_revision": "",
@@ -143,24 +119,24 @@
           "version": "0.3"
         }
       },
-      "program_version": "1.5.0"
+      "program_version": "1.0.0"
     }
   },
   "features": {
     "accuracy": 0.58388,
     "accuracy_top5": 0.810123,
-    "fixed_batch_size": 1
+    "fixed_batch_size": 10
   },
   "files": [
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 22013184,
+      "file_size": 10704208,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "library": "yes",
-      "md5": "64d005826e756ee3d0c761fd11f9a430",
-      "path": "code/5d1fef9414f29a6c/arm64-v8a",
+      "md5": "9623ede8555e0e58e7c6b806fce8d4ab",
+      "path": "code/a779425ab5ad2606/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -168,12 +144,12 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 18581500,
+      "file_size": 6535320,
       "filename": "libcaffe.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "library": "yes",
-      "md5": "8e59b43c0f833adbdb2c060eb3d60d87",
-      "path": "code/5d1fef9414f29a6c/armeabi-v7a",
+      "md5": "a0538b03458ac507765a073de61f2004",
+      "path": "code/a779425ab5ad2606/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
@@ -181,12 +157,12 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 12704,
+      "file_size": 12600,
       "filename": "librtlxopenme.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "library": "yes",
-      "md5": "693518288ff217749665d7693563c8f6",
-      "path": "code/94045b7b3993e15a/arm64-v8a",
+      "md5": "194251ec732b525a9051407df3484ac1",
+      "path": "code/9a99d988de92928d/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -194,12 +170,12 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 17924,
+      "file_size": 17804,
       "filename": "librtlxopenme.so",
       "from_data_uoa": "1046ff8d479dc6af",
       "library": "yes",
-      "md5": "223be8b580498206acc7f63de9e55896",
-      "path": "code/94045b7b3993e15a/armeabi-v7a",
+      "md5": "b7851df26147ac994d97be360af1fda6",
+      "path": "code/9a99d988de92928d/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
@@ -207,11 +183,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 5390296,
+      "file_size": 7591088,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "67325369b3ce5119919f5612982e3a55",
-      "path": "code/47d9a7dd7c680ca2/arm64-v8a",
+      "md5": "11de3f88fc0d1d6448a24d8b0b7d5e23",
+      "path": "code/205a3542231ac3c1/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -219,11 +195,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 3959876,
+      "file_size": 5204344,
       "filename": "classification",
       "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "5e9fe50b8f13e72c0a7180d6a73a657d",
-      "path": "code/47d9a7dd7c680ca2/armeabi-v7a",
+      "md5": "cc063a74c0a8144b09feae26be2ee408",
+      "path": "code/205a3542231ac3c1/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
@@ -234,64 +210,64 @@
       "filename": "mouse1.jpg",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "80e515155abbfe5e2f31ffcb90d40f48",
-      "path": "data/6a8ac49e4891b63d/demo"
+      "path": "data/4a6e91d75d682cec/demo"
     },
     {
       "file_size": 31675,
       "filename": "synset_words.txt",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "4d234b5833aca44928065a180db3016a",
-      "path": "data/6a8ac49e4891b63d/labels"
+      "path": "data/4a6e91d75d682cec/labels"
     },
     {
       "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
       "from_data_uoa": "1046ff8d479dc6af",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
-      "path": "data/6a8ac49e4891b63d/mean"
+      "path": "data/4a6e91d75d682cec/mean"
     },
     {
       "file_size": 9785,
       "filename": "deploy.prototxt",
       "md5": "6e119b277549b09fd229dcb6c01f2915",
-      "path": "data/416b9f941c8af352/topology"
+      "path": "data/87f5e203c47544d6/topology"
     },
     {
       "file_size": 781,
       "filename": "solver.prototxt",
       "md5": "abd856780c63348235d4f61f61bee316",
-      "path": "data/416b9f941c8af352/topology"
+      "path": "data/87f5e203c47544d6/topology"
     },
     {
       "file_size": 331,
       "filename": "quick_solver.prototxt",
       "md5": "6878af68f1ab465c0fa994b758ed6064",
-      "path": "data/416b9f941c8af352/topology"
+      "path": "data/87f5e203c47544d6/topology"
     },
     {
       "file_size": 11793,
       "filename": "train_val.prototxt",
       "md5": "d6875337bc50ac23b6b76de723b85c0f",
-      "path": "data/416b9f941c8af352/topology"
+      "path": "data/87f5e203c47544d6/topology"
     },
     {
       "file_size": 4436,
       "filename": "README.md",
       "md5": "be73835f20f25c8dbda9fffb832b17d2",
-      "path": "data/416b9f941c8af352/model"
+      "path": "data/87f5e203c47544d6/model"
     },
     {
       "file_size": 1250,
       "filename": "LICENSE",
       "md5": "c3151f46f30fe67b468a0135e442aaeb",
-      "path": "data/416b9f941c8af352/model"
+      "path": "data/87f5e203c47544d6/model"
     },
     {
       "file_size": 4950080,
       "filename": "squeezenet_v1.1.caffemodel",
       "md5": "0357e4e11d173c72a01615888826bc8e",
       "model_weights": "yes",
-      "path": "data/416b9f941c8af352/model",
+      "path": "data/87f5e203c47544d6/model",
       "url": "https://github.com/DeepScale/SqueezeNet/blob/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel?raw=true"
     }
   ],
@@ -299,6 +275,7 @@
     5
   ],
   "model": "DeepScale SqueezeNet 1.1",
+  "outdated": "yes",
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",

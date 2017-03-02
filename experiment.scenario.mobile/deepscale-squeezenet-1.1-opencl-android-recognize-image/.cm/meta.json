@@ -72,7 +72,7 @@
           "version": "0.3"
         }
       },
-      "program_version": "1.5.0"
+      "program_version": "1.0.0"
     },
     "armeabi-v7a": {
       "deps_versions": {
@@ -143,7 +143,7 @@
           "version": "0.3"
         }
       },
-      "program_version": "1.5.0"
+      "program_version": "1.0.0"
     }
   },
   "features": {
