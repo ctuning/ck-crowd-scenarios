@@ -157,7 +157,7 @@
       "executable": "yes",
       "file_size": 22013184,
       "filename": "libcaffe.so",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "library": "yes",
       "md5": "64d005826e756ee3d0c761fd11f9a430",
       "path": "code/5d1fef9414f29a6c/arm64-v8a",
@@ -170,7 +170,7 @@
       "executable": "yes",
       "file_size": 18581500,
       "filename": "libcaffe.so",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "library": "yes",
       "md5": "8e59b43c0f833adbdb2c060eb3d60d87",
       "path": "code/5d1fef9414f29a6c/armeabi-v7a",
@@ -183,7 +183,7 @@
       "executable": "yes",
       "file_size": 12704,
       "filename": "librtlxopenme.so",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "library": "yes",
       "md5": "693518288ff217749665d7693563c8f6",
       "path": "code/94045b7b3993e15a/arm64-v8a",
@@ -196,7 +196,7 @@
       "executable": "yes",
       "file_size": 17924,
       "filename": "librtlxopenme.so",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "library": "yes",
       "md5": "223be8b580498206acc7f63de9e55896",
       "path": "code/94045b7b3993e15a/armeabi-v7a",
@@ -209,8 +209,8 @@
       "executable": "yes",
       "file_size": 5390296,
       "filename": "classification",
-      "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "67325369b3ce5119919f5612982e3a55",
+      "from_data_uoa": "c554224c41993982",
+      "md5": "766c22a720f71bf47d198c4190fef047",
       "path": "code/47d9a7dd7c680ca2/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -221,8 +221,8 @@
       "executable": "yes",
       "file_size": 3959876,
       "filename": "classification",
-      "from_data_uoa": "1046ff8d479dc6af",
-      "md5": "5e9fe50b8f13e72c0a7180d6a73a657d",
+      "from_data_uoa": "c554224c41993982",
+      "md5": "d37b1d543816f7a5a6833b5a6ca866ee",
       "path": "code/47d9a7dd7c680ca2/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -232,28 +232,28 @@
       "default_image": "yes",
       "file_size": 7519011,
       "filename": "mouse1.jpg",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "80e515155abbfe5e2f31ffcb90d40f48",
       "path": "data/6a8ac49e4891b63d/demo"
     },
     {
       "file_size": 31675,
       "filename": "synset_words.txt",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "4d234b5833aca44928065a180db3016a",
       "path": "data/6a8ac49e4891b63d/labels"
     },
     {
       "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
       "path": "data/6a8ac49e4891b63d/mean"
     },
     {
-      "file_size": 9785,
+      "file_size": 9784,
       "filename": "deploy.prototxt",
-      "md5": "6e119b277549b09fd229dcb6c01f2915",
+      "md5": "26e1c2a8760707d799822c3765904e1a",
       "path": "data/416b9f941c8af352/topology"
     },
     {

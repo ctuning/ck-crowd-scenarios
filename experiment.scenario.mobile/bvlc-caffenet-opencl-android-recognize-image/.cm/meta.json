@@ -227,7 +227,7 @@
       "executable": "yes",
       "file_size": 5331904,
       "filename": "classification",
-      "md5": "42bbed6f83796dad81f83b8367344f5d",
+      "md5": "c62004f42798a2131f86741aacae739e",
       "path": "code/58c8a134fdbb2a45/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -238,7 +238,7 @@
       "executable": "yes",
       "file_size": 3896748,
       "filename": "classification",
-      "md5": "5e0318f360b3b170f5f8f0aba6f4feb3",
+      "md5": "204821b80cb55ecc27a7020db22cc33d",
       "path": "code/58c8a134fdbb2a45/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -248,48 +248,56 @@
       "default_image": "yes",
       "file_size": 7519011,
       "filename": "mouse1.jpg",
+      "from_data_uoa": "c554224c41993982",
       "md5": "80e515155abbfe5e2f31ffcb90d40f48",
       "path": "data/6a8ac49e4891b63d/demo"
     },
     {
       "file_size": 31675,
       "filename": "synset_words.txt",
+      "from_data_uoa": "c554224c41993982",
       "md5": "4d234b5833aca44928065a180db3016a",
       "path": "data/6a8ac49e4891b63d/labels"
     },
     {
       "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "c554224c41993982",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
       "path": "data/6a8ac49e4891b63d/mean"
     },
     {
-      "file_size": 2878,
+      "file_size": 2877,
       "filename": "deploy.prototxt",
-      "md5": "955051d11e44bd29dd87a25dd766ec23",
+      "from_data_uoa": "c554224c41993982",
+      "md5": "9d8f78e61676bef5b3444279cbe8ec1a",
       "path": "data/6a8ac49e4891b63d/topology"
     },
     {
       "file_size": 315,
       "filename": "solver.prototxt",
+      "from_data_uoa": "c554224c41993982",
       "md5": "252a04ee49b2bae0ac5ec3d78c0c55d6",
       "path": "data/6a8ac49e4891b63d/topology"
     },
     {
       "file_size": 5707,
       "filename": "train_val.prototxt",
+      "from_data_uoa": "c554224c41993982",
       "md5": "1df7257ddba14437be2ccb2e1a2db874",
       "path": "data/6a8ac49e4891b63d/topology"
     },
     {
       "file_size": 1307,
       "filename": "readme.md",
+      "from_data_uoa": "c554224c41993982",
       "md5": "dbe3e64604f8f297f5ac21fcb18cf6ee",
       "path": "data/6a8ac49e4891b63d/model"
     },
     {
       "file_size": 243862418,
       "filename": "bvlc_reference_caffenet.caffemodel",
+      "from_data_uoa": "c554224c41993982",
       "md5": "af678f0bd3cdd2437e35679d88665170",
       "model_weights": "yes",
       "path": "data/6a8ac49e4891b63d/model",

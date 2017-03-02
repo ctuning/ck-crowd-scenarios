@@ -210,7 +210,7 @@
       "file_size": 5331904,
       "filename": "classification",
       "from_data_uoa": "996efc93b43f3913",
-      "md5": "42bbed6f83796dad81f83b8367344f5d",
+      "md5": "c62004f42798a2131f86741aacae739e",
       "path": "code/58c8a134fdbb2a45/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -222,7 +222,7 @@
       "file_size": 3896748,
       "filename": "classification",
       "from_data_uoa": "996efc93b43f3913",
-      "md5": "5e0318f360b3b170f5f8f0aba6f4feb3",
+      "md5": "204821b80cb55ecc27a7020db22cc33d",
       "path": "code/58c8a134fdbb2a45/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -232,28 +232,28 @@
       "default_image": "yes",
       "file_size": 7519011,
       "filename": "mouse1.jpg",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "80e515155abbfe5e2f31ffcb90d40f48",
       "path": "data/6a8ac49e4891b63d/demo"
     },
     {
       "file_size": 31675,
       "filename": "synset_words.txt",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "4d234b5833aca44928065a180db3016a",
       "path": "data/6a8ac49e4891b63d/labels"
     },
     {
       "file_size": 786446,
       "filename": "imagenet_mean.binaryproto",
-      "from_data_uoa": "1046ff8d479dc6af",
+      "from_data_uoa": "c554224c41993982",
       "md5": "6df445471f4fa8a98fc19932d21bef77",
       "path": "data/6a8ac49e4891b63d/mean"
     },
     {
-      "file_size": 9640,
+      "file_size": 9639,
       "filename": "deploy.prototxt",
-      "md5": "ec33edbf17e082b3f5735fecc5a3d974",
+      "md5": "18f50c600ef5ae279e87415676e636ab",
       "path": "data/9c9ff0e48d598545/topology"
     },
     {
