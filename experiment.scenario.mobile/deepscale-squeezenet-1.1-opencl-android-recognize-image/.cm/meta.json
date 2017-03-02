@@ -1,0 +1,308 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/416b9f941c8af352/topology/deploy.prototxt $#local_path#$/openscience/data/416b9f941c8af352/model/squeezenet_v1.1.caffemodel $#local_path#$/openscience/data/6a8ac49e4891b63d/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/6a8ac49e4891b63d/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using standard Caffe Android library for OpenCL and DeepScale Squeezenet 1.1 NN",
+  "engine": "Caffe OpenCL",
+  "engine_meta": {
+    "arm64-v8a": {
+      "deps_versions": {
+        "boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "compiler": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
+          "version": "4.9.x"
+        },
+        "lib-blas": {
+          "iso_datetime_cut_revision": "20160831-85636ff",
+          "revision": "85636ff",
+          "tags": "lib,blas,openblas",
+          "version": "0.2.19-85636ff"
+        },
+        "lib-boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "lib-caffe": {
+          "iso_datetime_cut_revision": "20170221-f3ba72c",
+          "revision": "f3ba72c",
+          "tags": "lib,caffe,vcpu",
+          "version": "trunk-f3ba72c"
+        },
+        "lib-gflags": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,gflags",
+          "version": "2.2.0"
+        },
+        "lib-glog": {
+          "iso_datetime_cut_revision": "20170209-ab65454",
+          "revision": "ab65454",
+          "tags": "lib,glog",
+          "version": "development-ab65454"
+        },
+        "lib-opencv": {
+          "iso_datetime_cut_revision": "20170302-8e8da3f",
+          "revision": "8e8da3f",
+          "tags": "lib,opencv",
+          "version": "development-8e8da3f"
+        },
+        "lib-protobuf": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,protobuf",
+          "version": "3.1.0"
+        },
+        "lib-protobuf-host": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,protobuf-host",
+          "version": ""
+        },
+        "xopenme": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
+          "version": "0.3"
+        }
+      },
+      "program_version": "1.5.0"
+    },
+    "armeabi-v7a": {
+      "deps_versions": {
+        "boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "compiler": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
+          "version": "4.9.x"
+        },
+        "lib-blas": {
+          "iso_datetime_cut_revision": "20160831-85636ff",
+          "revision": "85636ff",
+          "tags": "lib,blas,openblas",
+          "version": "0.2.19-85636ff"
+        },
+        "lib-boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "lib-caffe": {
+          "iso_datetime_cut_revision": "20170221-f3ba72c",
+          "revision": "f3ba72c",
+          "tags": "lib,caffe,vcpu",
+          "version": "trunk-f3ba72c"
+        },
+        "lib-gflags": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,gflags",
+          "version": "2.2.0"
+        },
+        "lib-glog": {
+          "iso_datetime_cut_revision": "20170209-ab65454",
+          "revision": "ab65454",
+          "tags": "lib,glog",
+          "version": "development-ab65454"
+        },
+        "lib-opencv": {
+          "iso_datetime_cut_revision": "20170302-8e8da3f",
+          "revision": "8e8da3f",
+          "tags": "lib,opencv",
+          "version": "development-8e8da3f"
+        },
+        "lib-protobuf": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,protobuf",
+          "version": "3.1.0"
+        },
+        "lib-protobuf-host": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,protobuf-host",
+          "version": ""
+        },
+        "xopenme": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
+          "version": "0.3"
+        }
+      },
+      "program_version": "1.5.0"
+    }
+  },
+  "features": {
+    "accuracy": 0.58388,
+    "accuracy_top5": 0.810123,
+    "fixed_batch_size": 1
+  },
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 25895944,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "996efc93b43f3913",
+      "library": "yes",
+      "md5": "6c8b10ca8aa16e3e57ad83462601f16a",
+      "path": "code/67148afb0a4dd847/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 22331644,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "996efc93b43f3913",
+      "library": "yes",
+      "md5": "74ea0a746dbbf0dc89676f14cdd12a2c",
+      "path": "code/67148afb0a4dd847/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 12704,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "996efc93b43f3913",
+      "library": "yes",
+      "md5": "693518288ff217749665d7693563c8f6",
+      "path": "code/af6493166b44399b/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 17924,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "996efc93b43f3913",
+      "library": "yes",
+      "md5": "223be8b580498206acc7f63de9e55896",
+      "path": "code/af6493166b44399b/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 5331904,
+      "filename": "classification",
+      "from_data_uoa": "996efc93b43f3913",
+      "md5": "42bbed6f83796dad81f83b8367344f5d",
+      "path": "code/58c8a134fdbb2a45/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 3896748,
+      "filename": "classification",
+      "from_data_uoa": "996efc93b43f3913",
+      "md5": "5e0318f360b3b170f5f8f0aba6f4feb3",
+      "path": "code/58c8a134fdbb2a45/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
+      "path": "data/6a8ac49e4891b63d/demo"
+    },
+    {
+      "file_size": 31675,
+      "filename": "synset_words.txt",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/6a8ac49e4891b63d/labels"
+    },
+    {
+      "file_size": 786446,
+      "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/6a8ac49e4891b63d/mean"
+    },
+    {
+      "file_size": 9785,
+      "filename": "deploy.prototxt",
+      "md5": "6e119b277549b09fd229dcb6c01f2915",
+      "path": "data/416b9f941c8af352/topology"
+    },
+    {
+      "file_size": 781,
+      "filename": "solver.prototxt",
+      "md5": "abd856780c63348235d4f61f61bee316",
+      "path": "data/416b9f941c8af352/topology"
+    },
+    {
+      "file_size": 331,
+      "filename": "quick_solver.prototxt",
+      "md5": "6878af68f1ab465c0fa994b758ed6064",
+      "path": "data/416b9f941c8af352/topology"
+    },
+    {
+      "file_size": 11793,
+      "filename": "train_val.prototxt",
+      "md5": "d6875337bc50ac23b6b76de723b85c0f",
+      "path": "data/416b9f941c8af352/topology"
+    },
+    {
+      "file_size": 4436,
+      "filename": "README.md",
+      "md5": "be73835f20f25c8dbda9fffb832b17d2",
+      "path": "data/416b9f941c8af352/model"
+    },
+    {
+      "file_size": 1250,
+      "filename": "LICENSE",
+      "md5": "c3151f46f30fe67b468a0135e442aaeb",
+      "path": "data/416b9f941c8af352/model"
+    },
+    {
+      "file_size": 4950080,
+      "filename": "squeezenet_v1.1.caffemodel",
+      "md5": "0357e4e11d173c72a01615888826bc8e",
+      "model_weights": "yes",
+      "path": "data/416b9f941c8af352/model",
+      "url": "https://github.com/DeepScale/SqueezeNet/blob/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel?raw=true"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "model": "DeepScale SqueezeNet 1.1",
+  "skip": "no",
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "title": "Caffe OpenCL: SqueezeNet 1.1"
+}

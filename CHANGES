@@ -1,2 +1,5 @@
+20170302 * first attempt of OpenCL scenarios
+         * updated CPU scenarios (new versions)
+
 20161205 * updated libcaffe.so and classification for ARM64 and ARM32 fully generated via CK with all meta
          * added librtlxopenme.so
