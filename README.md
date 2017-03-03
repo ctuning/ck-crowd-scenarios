@@ -1,12 +1,15 @@
 CK-powered experiment crowdsourcing scenarios
 =============================================
 
-Public scenarios to crowdsource experiments (such as Caffe 
-crowd-benchmarking and crowd-tuning) using mobile devices.
+Public scenarios to crowdsource experiments (such as DNN/Caffe crowd-benchmarking and crowd-tuning) using mobile devices.
+Normally, you use this repository only for development. Whenever ready, this repository
+is updated at cKnowledge.org/repo and scenarios are available 
+in [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
+to let the community participate in collaborative deep learning optimization.
 
 Status
 ======
-On-going (stable version is available).
+Relatively stable but evolving.
 
 Prerequisites
 =============
@@ -42,36 +45,89 @@ Android application
 ===================
 
 * [GooglePlay](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments)
-* [GitHub](https://github.com/dividiti/crowdsource-video-experiments-on-android)
+* [GitHub Sources](https://github.com/dividiti/crowdsource-video-experiments-on-android)
 
-Android application send benchmarking and optimization statistic as a JSON blob
-to the module 'experiment.bench.caffe.mobile' (function process) 
-from the [ck-caffe](https://github.com/dividiti/ck-caffe) repo.
+Android application let volunteers participate in collaborative benchmarking and optimization
+of deep learning algorithms. It also sends benchmarking and optimization statistics 
+as a JSON blob to the module 'experiment.bench.caffe.mobile' (function "process") 
+from the [ck-caffe repository](https://github.com/dividiti/ck-caffe) 
+to be aggregated in the [live CK repository](http://cKnowledge.org/repo).
 
-Generating libcaffe.so and classification via CK
-================================================
-It is possible to automatically generate libcaffe.so and classification
-for ARM64 and ARM32 via CK with all meta via:
+Updating existing scenarios
+===========================
+
+If you would like to update existing scenarios
+(generate new libcaffe.so and classification binary for Android via CK),
+you should copy them to new entries with a version extension.
+
+For example, you can copy entry "bvlc-caffenet-android-recognize-image-v2"
+to "bvlc-caffenet-android-recognize-image-v3" via
+```
+ $ ck cp experiment.scenario.mobile:bvlc-caffenet-android-recognize-image-v2 ck-crowd-scenarios::bvlc-caffenet-android-recognize-image-v3
+```
+
+Then you should add key "outdated":"yes" to the meta.json of
+"bvlc-caffenet-android-recognize-image-v2" entry. In such case
+this entry will be in an "achive" state, will not be updated
+and will not be visible for Android app.
+
+You should then update "program" key in a meta.json of the new entry 
+with the new version, say 3.0.0.
+You also need to substitute v2 with v3 in all keys in meta.json.
+
+After that you should build Caffe libs for all scenarios that will be updated.
+
+For example, for CPU version of Caffe you should run:
+```
+$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm64
+$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm-v7a
+```
+For Caffe OpenCL you should do the following:
+```
+ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm64 --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
+ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm-v7a --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
+```
+
+See additional info about building Caffe with various libraries for Android via CK
+[here](https://github.com/dividiti/ck-caffe/wiki/Installation).
+
+
+Note that we suggest you to have a clean installation of all libs. You can do it
+by deleting CK env for all software via
+```
+$ ck rm -f env:*
+```
+and then removing files from '$USER/CK_TOOLS' directory.
+
+Now you are ready to update new scenarios. You can do it simply as following:
 ```
 $ ck generate experiment.bench.caffe.mobile
 ```
 
-This module is available in 'ck-caffe' repository.
+Normally, all outdated libcaffe.so will be automatically deleted and updated ones will be copied
+to the new entries. You can also update only scenarios for a specific engine via
+```
+$ ck generate experiment.bench.caffe.mobile --prune_engine="Caffe CPU"
+ and/or
+$ ck generate experiment.bench.caffe.mobile --prune_engine="Caffe OpenCL"
+```
 
-Note, that if outdated lib and bin are found, they will be removed.
-Therefore, please copy old files manually to the 'ck-crowd-scenarios-arc' repo
-before using this command!
-
-When new scenario is available, you should run the following command
-from ck-crowdtuning repository on server sie to process all meta
-and automatically calculate MD5, file sizes, URL, etc:
+Finally, you should automatically update length of files, their MD5
+and URLs via 
 
 ```
  $ ck process experiment.scenario.mobile
 ```
 
+Now, new scenarios should be ready to be used by [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
+if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - contact authors for more details.
+
 Public results
 ==============
 
 Public benchmarking and optimization results are continuously
-aggregated in [CK live repo](http://cKnowledge.org/repo)
+aggregated in the [live CK repository](http://cKnowledge.org/repo)
+
+Public discussions
+==================
+* CK mailing list: http://groups.google.com/group/collective-knowledge
