@@ -177,10 +177,10 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 25895944,
+      "file_size": 25900136,
       "filename": "libcaffe.so",
       "library": "yes",
-      "md5": "6c8b10ca8aa16e3e57ad83462601f16a",
+      "md5": "7a4c852000359cfb2549c89d117cdc53",
       "path": "code/67148afb0a4dd847/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -189,10 +189,10 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 22331644,
+      "file_size": 22331660,
       "filename": "libcaffe.so",
       "library": "yes",
-      "md5": "74ea0a746dbbf0dc89676f14cdd12a2c",
+      "md5": "4c0916461a8be65178be2aa6a9bfab10",
       "path": "code/67148afb0a4dd847/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -227,7 +227,7 @@
       "executable": "yes",
       "file_size": 5331904,
       "filename": "classification",
-      "md5": "c62004f42798a2131f86741aacae739e",
+      "md5": "de5849a62cad6598d643eace6bd2722f",
       "path": "code/58c8a134fdbb2a45/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -238,7 +238,7 @@
       "executable": "yes",
       "file_size": 3896748,
       "filename": "classification",
-      "md5": "204821b80cb55ecc27a7020db22cc33d",
+      "md5": "c233028a74dca655282bc7652f6bc197",
       "path": "code/58c8a134fdbb2a45/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"

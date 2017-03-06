@@ -155,11 +155,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 25895944,
+      "file_size": 25900136,
       "filename": "libcaffe.so",
       "from_data_uoa": "996efc93b43f3913",
       "library": "yes",
-      "md5": "6c8b10ca8aa16e3e57ad83462601f16a",
+      "md5": "7a4c852000359cfb2549c89d117cdc53",
       "path": "code/67148afb0a4dd847/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -168,11 +168,11 @@
     {
       "copy_to_app_space": "yes",
       "executable": "yes",
-      "file_size": 22331644,
+      "file_size": 22331660,
       "filename": "libcaffe.so",
       "from_data_uoa": "996efc93b43f3913",
       "library": "yes",
-      "md5": "74ea0a746dbbf0dc89676f14cdd12a2c",
+      "md5": "4c0916461a8be65178be2aa6a9bfab10",
       "path": "code/67148afb0a4dd847/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -210,7 +210,7 @@
       "file_size": 5331904,
       "filename": "classification",
       "from_data_uoa": "996efc93b43f3913",
-      "md5": "c62004f42798a2131f86741aacae739e",
+      "md5": "de5849a62cad6598d643eace6bd2722f",
       "path": "code/58c8a134fdbb2a45/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
@@ -222,7 +222,7 @@
       "file_size": 3896748,
       "filename": "classification",
       "from_data_uoa": "996efc93b43f3913",
-      "md5": "204821b80cb55ecc27a7020db22cc33d",
+      "md5": "c233028a74dca655282bc7652f6bc197",
       "path": "code/58c8a134fdbb2a45/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
@@ -253,42 +253,49 @@
     {
       "file_size": 9639,
       "filename": "deploy.prototxt",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "18f50c600ef5ae279e87415676e636ab",
       "path": "data/9c9ff0e48d598545/topology"
     },
     {
       "file_size": 331,
       "filename": "quick_solver.prototxt",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "6878af68f1ab465c0fa994b758ed6064",
       "path": "data/9c9ff0e48d598545/topology"
     },
     {
       "file_size": 781,
       "filename": "solver.prototxt",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "abd856780c63348235d4f61f61bee316",
       "path": "data/9c9ff0e48d598545/topology"
     },
     {
       "file_size": 11807,
       "filename": "train_val.prototxt",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "d63d3878bb44c3e7b1ec10029688a74f",
       "path": "data/9c9ff0e48d598545/topology"
     },
     {
       "file_size": 1250,
       "filename": "LICENSE",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "c3151f46f30fe67b468a0135e442aaeb",
       "path": "data/9c9ff0e48d598545/model"
     },
     {
       "file_size": 3796,
       "filename": "README.md",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "23bf63fe0485c90ffd6ff6141fc10efa",
       "path": "data/9c9ff0e48d598545/model"
     },
     {
       "file_size": 5001403,
       "filename": "squeezenet_v1.0.caffemodel",
+      "from_data_uoa": "0952cf7bb34139af",
       "md5": "bb9a2fd4be158e5b1e58a5cdc2b4aaa8",
       "model_weights": "yes",
       "path": "data/9c9ff0e48d598545/model",
