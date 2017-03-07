@@ -124,6 +124,31 @@ and URLs via
 Now, new scenarios should be ready to be used by [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
 if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - contact authors for more details.
 
+Publications
+============
+
+```
+@inproceedings{cm:29db2248aba45e59:cd11e3a188574d80,
+    title = {{Collective Mind, Part II}: Towards Performance- and Cost-Aware Software Engineering as a Natural Science},
+    author = {Fursin, Grigori and Memon, Abdul and Guillon, Christophe and Lokhmotov, Anton},
+    booktitle = {18th International Workshop on Compilers for Parallel Computing (CPC'15)},
+    year = {2015},
+    url = {https://arxiv.org/abs/1506.06256},
+    month = {January}
+}
+```
+
+```
+@inproceedings{ck-date16,
+    title = {{Collective Knowledge}: towards {R\&D} sustainability},
+    author = {Fursin, Grigori and Lokhmotov, Anton and Plowman, Ed},
+    booktitle = {Proceedings of the Conference on Design, Automation and Test in Europe (DATE'16)},
+    year = {2016},
+    month = {March},
+    url = {https://www.researchgate.net/publication/304010295_Collective_Knowledge_Towards_RD_Sustainability}
+}
+```
+
 Public results
 ==============
 
@@ -132,4 +157,4 @@ aggregated in the [live CK repository](http://cKnowledge.org/repo)
 
 Public discussions
 ==================
-* CK mailing list: http://groups.google.com/group/collective-knowledge
+* [CK mailing list](http://groups.google.com/group/collective-knowledge)
