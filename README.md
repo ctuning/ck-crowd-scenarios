@@ -23,9 +23,9 @@ Prerequisites
 Authors
 =======
 
-* Grigori Fursin, dividiti
-* Anton Lokhmotov, dividiti
-* Daniil Efremov, Xored
+* [Grigori Fursin](http://fursin.net/research.html), dividiti/cTuning foundation
+* [Anton Lokhmotov](https://www.hipeac.net/~anton), dividiti
+* [Daniil Efremov](http://xored.com), Xored
 
 License
 =======
@@ -158,3 +158,5 @@ aggregated in the [live CK repository](http://cKnowledge.org/repo)
 Public discussions
 ==================
 * [CK mailing list](http://groups.google.com/group/collective-knowledge)
+
+![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)
