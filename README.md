@@ -3,7 +3,10 @@ CK-powered experiment crowdsourcing scenarios
 
 This repository contains public scenarios (software and data sets) in the [Collective Knowledge Format](http://cKnowledge.org)
 to crowdsource experiments such as DNN/Caffe crowd-benchmarking and crowd-tuning across diverse mobile devices
-provided by volunteers.
+provided by volunteers using this [universal Android app](https://github.com/dividiti/crowdsource-video-experiments-on-android).
+
+The results (performance, mispredictions, etc) are continuously 
+aggregated in the [open CK repository of knowledge](http://cKnowledge.org/repo).
 
 Normally, you use this repository only for development. Whenever ready, this repository
 is updated at cKnowledge.org/repo and scenarios are available 
