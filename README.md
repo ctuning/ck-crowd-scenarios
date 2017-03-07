@@ -1,6 +1,10 @@
 CK-powered experiment crowdsourcing scenarios
 =============================================
 
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 This repository contains public scenarios (software and data sets) in the [Collective Knowledge Format](http://cKnowledge.org)
 to crowdsource experiments such as DNN/Caffe crowd-benchmarking and crowd-tuning across diverse mobile devices
 provided by volunteers using this [universal Android app](https://github.com/dividiti/crowdsource-video-experiments-on-android).
@@ -158,5 +162,3 @@ aggregated in the [live CK repository](http://cKnowledge.org/repo)
 Public discussions
 ==================
 * [CK mailing list](http://groups.google.com/group/collective-knowledge)
-
-![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)
