@@ -1,0 +1,93 @@
+{
+  "cmd": "./classification --graph=$#local_path#$/openscience/data/b4e12804782be29a/model/tensorflow_inception_stripped.pb  --image=$#image#$ --labels=$#local_path#$/openscience/data/b4e12804782be29a/labels/imagenet_comp_graph_label_strings.txt",
+  "desc": "crowd-benchmarking image recognition using TensorFlow Android library for CPU and ImageNet Inception 20151205 stripped model",
+  "engine": "TensorFlow CPU",
+  "engine_meta": {
+    "arm64-v8a": {
+      "program_version": "1.0.0"
+    },
+    "armeabi-v7a": {
+      "program_version": "1.0.0"
+    }
+  },
+  "features": {
+    "fixed_batch_size": 1
+  },
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "path": "code/b4e12804782be29a/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "filename": "classification",
+      "path": "code/b4e12804782be29a/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 12704,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "c554224c41993982",
+      "library": "yes",
+      "md5": "693518288ff217749665d7693563c8f6",
+      "path": "code/94045b7b3993e15a/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 17924,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "c554224c41993982",
+      "library": "yes",
+      "md5": "223be8b580498206acc7f63de9e55896",
+      "path": "code/94045b7b3993e15a/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "c554224c41993982",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
+      "path": "data/6a8ac49e4891b63d/demo"
+    },
+    {
+      "filename": "imagenet_comp_graph_label_strings.txt",
+      "path": "data/b4e12804782be29a/labels"
+    },
+    {
+      "filename": "readme.md",
+      "path": "data/b4e12804782be29a/model"
+    },
+    {
+      "filename": "tensorflow_inception_stripped.pb",
+      "path": "data/b4e12804782be29a/model",
+      "url": "http://cKnowledge.org/ai/data/tensorflow_inception_stripped.pb"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "model": "Inception Imagenet 20151205",
+  "outdated": "yes",
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "title": "TensorFlow CPU: Inception 20151205 Stripped "
+}
