@@ -6,16 +6,20 @@ CK-powered experiment crowdsourcing scenarios
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 This repository contains public scenarios (software and data sets) in the [Collective Knowledge Format](http://cKnowledge.org)
-to crowdsource experiments such as DNN/Caffe crowd-benchmarking and crowd-tuning across diverse mobile devices
-provided by volunteers using this [universal Android app](https://github.com/dividiti/crowdsource-video-experiments-on-android).
+to crowdsource experiments such as DNN engine ([Caffe](http://github.com/dividiti/ck-caffe),
+[TensorFlow](http://github.com/ctuning/ck-tensorflow)) and model crowd-benchmarking and crowd-tuning 
+to let the community participate in [collaborative deep learning optimization](http://cKnowledge.org/ai)
+across diverse mobile devices using 
+[universal experiment crowdsourcing Android app]((https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments)
+(see open sources at [GitHub](https://github.com/dividiti/crowdsource-video-experiments-on-android)).
 
 The results (performance, mispredictions, etc) are continuously 
 aggregated in the [open CK repository of knowledge](http://cKnowledge.org/repo).
 
 Normally, you use this repository only for development. Whenever ready, this repository
-is updated at cKnowledge.org/repo and scenarios are available 
-in [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
-to let the community participate in collaborative deep learning optimization.
+is synced at the cKnowledge.org/repo to make scenarios available for update
+in the [Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) -
+just do not forget to select "Information" -> "Update Scenarios"!
 
 Prerequisites
 =============
@@ -93,13 +97,18 @@ For Caffe OpenCL you should do the following:
 ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm64 --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
 ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm-v7a --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
 ```
+For TensorFlow CPU you should run:
+```
+$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm64
+$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm-v7a
+```
 
-See additional info about building Caffe with various libraries for Android via CK
-[here](https://github.com/dividiti/ck-caffe/wiki/Installation).
+Additional info:
+* building Caffe via CK workflow framework with various libraries for Android: [notes](https://github.com/dividiti/ck-caffe/wiki/Installation). 
+* building TensorFlow via CK workflow framework with various libraries for Android: [notes](https://github.com/ctuning/ck-tensorflow). 
 
-
-Note that we suggest you to have a clean installation of all libs. You can do it
-by deleting CK env for all software via
+Note that we suggest you to have a clean installation of all libs. 
+You can do it by deleting CK env for all software via
 ```
 $ ck rm -f env:*
 ```
@@ -107,15 +116,17 @@ and then removing files from '$USER/CK_TOOLS' directory.
 
 Now you are ready to update new scenarios. You can do it simply as following:
 ```
-$ ck generate experiment.bench.caffe.mobile
+$ ck generate experiment.bench.dnn.mobile
 ```
 
 Normally, all outdated libcaffe.so will be automatically deleted and updated ones will be copied
 to the new entries. You can also update only scenarios for a specific engine via
 ```
-$ ck generate experiment.bench.caffe.mobile --prune_engine="Caffe CPU"
+$ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe CPU"
  and/or
-$ ck generate experiment.bench.caffe.mobile --prune_engine="Caffe OpenCL"
+$ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe OpenCL"
+ and/or
+$ ck generate experiment.bench.dnn.mobile --prune_engine="TensorFlow CPU"
 ```
 
 Finally, you should automatically update length of files, their MD5
@@ -130,6 +141,9 @@ if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - con
 
 Publications
 ============
+
+* https://arxiv.org/abs/1506.06256
+* https://www.researchgate.net/publication/304010295_Collective_Knowledge_Towards_RD_Sustainability
 
 ```
 @inproceedings{cm:29db2248aba45e59:cd11e3a188574d80,
