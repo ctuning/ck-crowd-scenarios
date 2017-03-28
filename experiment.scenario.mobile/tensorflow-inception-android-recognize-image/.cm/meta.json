@@ -161,6 +161,7 @@
     {
       "filename": "tensorflow_inception_stripped.pb", 
       "path": "data/b4e12804782be29a/model", 
+      "file_size": 95670540, 
       "md5": "0a055a8d7b90ebc6a6fa2a2cbc1340bd", 
       "url": "http://cKnowledge.org/ai/data/tensorflow_inception_stripped.pb"
     }
