@@ -6,9 +6,9 @@ CK-powered experiment crowdsourcing scenarios
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 This repository contains public scenarios (software and data sets) in the [Collective Knowledge Format](http://cKnowledge.org)
-to crowdsource experiments such as DNN engine ([Caffe](http://github.com/dividiti/ck-caffe),
-[TensorFlow](http://github.com/ctuning/ck-tensorflow)) and model crowd-benchmarking and crowd-tuning 
 to let the community participate in [collaborative deep learning optimization](http://cKnowledge.org/ai)
+including DNN engines ([Caffe](http://github.com/dividiti/ck-caffe),
+[TensorFlow](http://github.com/ctuning/ck-tensorflow)) and various models
 across diverse mobile devices using 
 [universal experiment crowdsourcing Android app]((https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments)
 (see open sources at [GitHub](https://github.com/dividiti/crowdsource-video-experiments-on-android)).
