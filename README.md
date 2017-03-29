@@ -100,7 +100,7 @@ ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21
 For TensorFlow CPU you should run:
 ```
 $ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm64
-$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm-v7a
+$ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm-v7a --env.OPTFLAGS="-O2 -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
 ```
 
 Additional info:
