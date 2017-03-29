@@ -104,9 +104,9 @@
     {
       "copy_to_app_space": "yes", 
       "executable": "yes", 
-      "file_size": 34311540, 
+      "file_size": 36938868, 
       "filename": "classification", 
-      "md5": "8cb439ff8d9f3017ae9b52066fdd33d1", 
+      "md5": "caa5ed1e46eb6ed8e88c427045b8ee03", 
       "path": "code/da4f8d2194d7facd/armeabi-v7a", 
       "supported_abi": [
         "armeabi-v7a"
