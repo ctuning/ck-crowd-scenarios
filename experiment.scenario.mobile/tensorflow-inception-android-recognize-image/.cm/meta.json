@@ -147,22 +147,22 @@
       "path": "data/6a8ac49e4891b63d/demo"
     }, 
     {
-      "file_size": 11492, 
+      "file_size": 10493, 
       "filename": "imagenet_comp_graph_label_strings.txt", 
-      "md5": "0a0a8ff1a472f8b193e485fa06c5319d", 
+      "md5": "ee84f1ae808f9c8897b1e115407972dc", 
       "path": "data/b4e12804782be29a/labels"
     }, 
     {
-      "file_size": 59, 
+      "file_size": 60, 
       "filename": "readme.md", 
-      "md5": "47754b7a6c733937a10099a2c1403748", 
+      "md5": "fac299fb09849cffb921b8b683c61c48", 
       "path": "data/b4e12804782be29a/model"
     }, 
     {
-      "filename": "tensorflow_inception_stripped.pb", 
-      "path": "data/b4e12804782be29a/model", 
       "file_size": 95670540, 
+      "filename": "tensorflow_inception_stripped.pb", 
       "md5": "0a055a8d7b90ebc6a6fa2a2cbc1340bd", 
+      "path": "data/b4e12804782be29a/model", 
       "url": "http://cKnowledge.org/ai/data/tensorflow_inception_stripped.pb"
     }
   ], 
