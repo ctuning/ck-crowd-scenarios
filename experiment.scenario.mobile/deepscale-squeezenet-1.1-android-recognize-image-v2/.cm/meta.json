@@ -300,6 +300,7 @@
   ],
   "model": "DeepScale SqueezeNet 1.1",
   "skip": "no",
+  "default_download":"yes",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"
