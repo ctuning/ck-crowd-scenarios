@@ -115,10 +115,10 @@
     {
       "copy_to_app_space": "yes", 
       "executable": "yes", 
-      "file_size": 12600, 
+      "file_size": 12704, 
       "filename": "librtlxopenme.so", 
       "library": "yes", 
-      "md5": "194251ec732b525a9051407df3484ac1", 
+      "md5": "693518288ff217749665d7693563c8f6", 
       "path": "code/ea5ff3110df44569/arm64-v8a", 
       "supported_abi": [
         "arm64-v8a"
