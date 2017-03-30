@@ -117,10 +117,9 @@
       "executable": "yes", 
       "file_size": 12704, 
       "filename": "librtlxopenme.so", 
-      "from_data_uoa": "c554224c41993982", 
       "library": "yes", 
       "md5": "693518288ff217749665d7693563c8f6", 
-      "path": "code/94045b7b3993e15a/arm64-v8a", 
+      "path": "code/ea5ff3110df44569/arm64-v8a", 
       "supported_abi": [
         "arm64-v8a"
       ]
@@ -130,10 +129,9 @@
       "executable": "yes", 
       "file_size": 17924, 
       "filename": "librtlxopenme.so", 
-      "from_data_uoa": "c554224c41993982", 
       "library": "yes", 
       "md5": "223be8b580498206acc7f63de9e55896", 
-      "path": "code/94045b7b3993e15a/armeabi-v7a", 
+      "path": "code/ea5ff3110df44569/armeabi-v7a", 
       "supported_abi": [
         "armeabi-v7a"
       ]
