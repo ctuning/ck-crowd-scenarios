@@ -148,30 +148,7 @@ if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - con
 Publications
 ============
 
-* https://arxiv.org/abs/1506.06256
-* https://www.researchgate.net/publication/304010295_Collective_Knowledge_Towards_RD_Sustainability
-
-```
-@inproceedings{cm:29db2248aba45e59:cd11e3a188574d80,
-    title = {{Collective Mind, Part II}: Towards Performance- and Cost-Aware Software Engineering as a Natural Science},
-    author = {Fursin, Grigori and Memon, Abdul and Guillon, Christophe and Lokhmotov, Anton},
-    booktitle = {18th International Workshop on Compilers for Parallel Computing (CPC'15)},
-    year = {2015},
-    url = {https://arxiv.org/abs/1506.06256},
-    month = {January}
-}
-```
-
-```
-@inproceedings{ck-date16,
-    title = {{Collective Knowledge}: towards {R\&D} sustainability},
-    author = {Fursin, Grigori and Lokhmotov, Anton and Plowman, Ed},
-    booktitle = {Proceedings of the Conference on Design, Automation and Test in Europe (DATE'16)},
-    year = {2016},
-    month = {March},
-    url = {https://www.researchgate.net/publication/304010295_Collective_Knowledge_Towards_RD_Sustainability}
-}
-```
+See all CK publications with BibTex [here](https://github.com/ctuning/ck/wiki/Publications).
 
 Public results
 ==============
