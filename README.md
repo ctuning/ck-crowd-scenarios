@@ -145,17 +145,20 @@ and URLs via
 Now, new scenarios should be ready to be used by [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
 if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - contact authors for more details.
 
-Publications
-============
-
-See all CK publications with BibTex [here](https://github.com/ctuning/ck/wiki/Publications).
-
 Public results
 ==============
 
-Public benchmarking and optimization results are continuously
-aggregated in the [live CK repository](http://cKnowledge.org/repo)
+Public benchmarking and optimization results collected from Android devices
+are continuously aggregated in the [live CK repository](http://cknowledge.org/dnn-crowd-benchmarking-results).
 
-Public discussions
-==================
-* [CK mailing list](http://groups.google.com/group/collective-knowledge)
+Related publications
+====================
+
+See all CK publications with BibTex [here](https://github.com/ctuning/ck/wiki/Publications).
+
+Further discussions
+===================
+
+* [Collective Knowledge mailing list](http://groups.google.com/group/collective-knowledge)
+* [Collective Knowledge slack](https://collective-knowledge.slack.com)
+* [Artifact evaluation mailing list](http://groups.google.com/group/artifact-evaluation)
