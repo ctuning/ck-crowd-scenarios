@@ -126,7 +126,7 @@ $ ck rm -f env:*
 ```
 and then removing files from '$USER/CK_TOOLS' directory.
 
-Now you are ready to update new scenarios. You can do it simply as following:
+Now you are ready to update new scenarios. You can do it as follows:
 ```
 $ ck generate experiment.bench.dnn.mobile
 ```
