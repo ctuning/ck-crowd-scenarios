@@ -42,7 +42,7 @@
       "executable": "yes", 
       "file_size": 7285144, 
       "filename": "classification", 
-      "md5": "fa9e8f49f8cce977a4ac63f91704d67b", 
+      "md5": "f35b1ac78d8165b810eceb8254c904a4", 
       "path": "code/7ba812e628c0cf7b/arm64-v8a", 
       "supported_abi": [
         "arm64-v8a"
@@ -71,7 +71,7 @@
     {
       "file_size": 10493, 
       "filename": "labels.txt", 
-      "md5": "ee84f1ae808f9c8897b1e115407972dc", 
+      "md5": "295d81f0039772b0c909237eb803b42d", 
       "path": "data/37512004e52a2e50/labels"
     }, 
     {
