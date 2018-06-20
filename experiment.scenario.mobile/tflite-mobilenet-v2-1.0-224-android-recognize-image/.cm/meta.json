@@ -75,9 +75,9 @@
       "path": "data/37512004e52a2e50/labels"
     }, 
     {
-      "file_size": 95670540, 
+      "file_size": 13978596, 
       "filename": "mobilenet_v2_1.0_224.tflite", 
-      "md5": "0a055a8d7b90ebc6a6fa2a2cbc1340bd", 
+      "md5": "d8065bc96469fdc4f3fdb05b878c6bbc", 
       "path": "data/37512004e52a2e50/model", 
       "url": "http://cKnowledge.org/ai/data/mobilenet_v2_1.0_224.tflite"
     }
