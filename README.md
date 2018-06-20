@@ -97,13 +97,19 @@ For Caffe OpenCL you should do the following:
 ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm64 --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
 ck install package:lib-caffe-bvlc-opencl-clblast-universal --target_os=android21-arm-v7a --env.DISABLE_DEVICE_HOST_UNIFIED_MEMORY=ON
 ```
-For TensorFlow CPU you should invoke the following:
+For Caffe CPU you should invoke the following:
 ```
 $ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm64
 $ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android21-arm-v7a --env.OPTFLAGS="-O2 -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
 ```
 
-Note that while Caffe can currently run on Android 5+, you can build and run TensorFlow on older Android 4.2+ via:
+For TFLite CPU you should run the following:
+```
+$ ck install package:lib-tflite-1.7.0-src-static --target_os=android21-arm64
+$ ck install package:lib-tflite-1.7.0-src-static --target_os=android21-arm-v7a
+```
+
+Note that while Caffe can currently run on Android 5+, you can build and run Caffe on older Android 4.2+ via:
 ```
 $ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android19-arm64
 $ ck install package:lib-caffe-bvlc-master-cpu-universal --target_os=android19-arm-v7a --env.OPTFLAGS="-O2 -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
@@ -133,6 +139,8 @@ $ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe CPU"
 $ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe OpenCL"
  and/or
 $ ck generate experiment.bench.dnn.mobile --prune_engine="TensorFlow CPU"
+ and/or
+$ ck generate experiment.bench.dnn.mobile --prune_engine="TFLite CPU" --target_os=android23-arm64
 ```
 
 Finally, you should automatically update length of files, their MD5
