@@ -1,6 +1,6 @@
 {
-  "cmd": "./classification --graph=$#local_path#$/openscience/data/37512004e52a2e50/model/mobilenet_v2_1.0_224.tflite  --image=$#image#$ --labels=$#local_path#$/openscience/data/37512004e52a2e50/labels/labels.txt",
-  "desc": "crowd-benchmarking image recognition using TFLite Android library for CPU and MobileNets v2 1.0 224 model",
+  "cmd": "./classification --graph=$#local_path#$/openscience/data/37512004e52a2e50/model/mobilenet_v1_0.25_128.tflite  --image=$#image#$ --labels=$#local_path#$/openscience/data/37512004e52a2e50/labels/labels.txt",
+  "desc": "crowd-benchmarking image recognition using TFLite Android library for CPU and MobileNets v1 0.25 128 model",
   "engine": "TFLite CPU",
   "engine_meta": {
     "arm64-v8a": {
@@ -42,6 +42,7 @@
       "executable": "yes",
       "file_size": 7285144,
       "filename": "classification",
+      "from_data_uoa": "fc3c441a959a8d4c",
       "md5": "f35b1ac78d8165b810eceb8254c904a4",
       "path": "code/7ba812e628c0cf7b/arm64-v8a",
       "supported_abi": [
@@ -53,6 +54,7 @@
       "executable": "yes",
       "file_size": 13040,
       "filename": "librtlxopenme.so",
+      "from_data_uoa": "fc3c441a959a8d4c",
       "library": "yes",
       "md5": "c2c3cc28a774e6612489dd21613188d2",
       "path": "code/f9c471a1cf4c4fa3/arm64-v8a",
@@ -71,24 +73,25 @@
     {
       "file_size": 10493,
       "filename": "labels.txt",
+      "from_data_uoa": "fc3c441a959a8d4c",
       "md5": "295d81f0039772b0c909237eb803b42d",
       "path": "data/37512004e52a2e50/labels"
     },
     {
-      "file_size": 13978596,
-      "filename": "mobilenet_v2_1.0_224.tflite",
-      "md5": "d8065bc96469fdc4f3fdb05b878c6bbc",
+      "file_size": 1882904,
+      "filename": "mobilenet_v1_0.25_128.tflite",
+      "md5": "36934c61ac616eb339aa6ce9dc0e1f9c",
       "path": "data/37512004e52a2e50/model",
-      "url": "http://cKnowledge.org/ai/data/mobilenet_v2_1.0_224.tflite"
+      "url": "http://cKnowledge.org/ai/data/mobilenet_v1_0.25_128.tflite"
     }
   ],
   "min_os_ver": [
     5
   ],
-  "model": "MobileNets v2 1.0 224",
+  "model": "MobileNets v1 0.25 128",
   "outdated": "no",
   "supported_abi": [
     "arm64-v8a"
   ],
-  "title": "TFLite CPU: MobileNets v2 1.0 224"
+  "title": "TFLite CPU: MobileNets v1 0.25 128"
 }
