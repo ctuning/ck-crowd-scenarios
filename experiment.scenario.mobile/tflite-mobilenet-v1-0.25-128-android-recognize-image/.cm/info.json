@@ -1,21 +1,21 @@
 {
-  "backup_data_uid": "f734ec433c94275b", 
-  "backup_module_uid": "65477d547a49dd2c", 
-  "backup_module_uoa": "experiment.scenario.mobile", 
+  "backup_data_uid": "f734ec433c94275b",
+  "backup_module_uid": "65477d547a49dd2c",
+  "backup_module_uoa": "experiment.scenario.mobile",
   "control": {
-    "author": "Grigori Fursin", 
-    "author_email": "Grigori.Fursin@cTuning.org", 
-    "author_webpage": "http://fursin.net", 
-    "copyright": "See CK COPYRIGHT.txt for copyright details", 
-    "engine": "CK", 
-    "iso_datetime": "2018-06-22T11:48:39.025725", 
-    "license": "See CK LICENSE.txt for licensing details", 
+    "author": "Grigori Fursin",
+    "author_email": "Grigori.Fursin@cTuning.org",
+    "author_webpage": "http://fursin.net",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "engine": "CK",
+    "iso_datetime": "2018-06-22T11:48:39.025725",
+    "license": "See CK LICENSE.txt for licensing details",
     "version": [
-      "1", 
-      "9", 
-      "4", 
+      "1",
+      "9",
+      "4",
       "1"
     ]
-  }, 
+  },
   "data_name": "tflite-mobilenet-v1-0.25-128-android-recognize-image"
 }

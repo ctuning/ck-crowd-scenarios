@@ -1,126 +1,127 @@
 {
-  "cmd": "./classification --graph=$#local_path#$/openscience/data/37512004e52a2e50/model/mobilenet_v1_0.75_160.tflite  --image=$#image#$ --labels=$#local_path#$/openscience/data/37512004e52a2e50/labels/labels.txt", 
-  "desc": "crowd-benchmarking image recognition using TFLite Android library for CPU and MobileNets v1 0.75 160 model", 
-  "engine": "TFLite CPU", 
+  "cmd": "./classification --graph=$#local_path#$/openscience/data/37512004e52a2e50/model/mobilenet_v1_0.75_160.tflite  --image=$#image#$ --labels=$#local_path#$/openscience/data/37512004e52a2e50/labels/labels.txt",
+  "desc": "crowd-benchmarking image recognition using TFLite Android library for CPU and MobileNets v1 0.75 160 model",
+  "engine": "TFLite CPU",
   "engine_meta": {
     "arm64-v8a": {
       "deps_versions": {
         "compiler": {
-          "iso_datetime_cut_revision": "", 
-          "revision": "", 
-          "tags": "compiler,lang-cpp", 
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
           "version": "4.9.x"
-        }, 
+        },
         "libjpeg": {
-          "iso_datetime_cut_revision": "20151102-6c0fcb8", 
-          "revision": "6c0fcb8", 
-          "tags": "lib,libjpeg", 
+          "iso_datetime_cut_revision": "20151102-6c0fcb8",
+          "revision": "6c0fcb8",
+          "tags": "lib,libjpeg",
           "version": "20151002-6c0fcb8"
-        }, 
+        },
         "library": {
-          "iso_datetime_cut_revision": "", 
-          "revision": "", 
-          "tags": "lib,tensorflow-lite,vstatic", 
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,tensorflow-lite,vstatic",
           "version": "1.7"
-        }, 
+        },
         "xopenme": {
-          "iso_datetime_cut_revision": "", 
-          "revision": "", 
-          "tags": "lib,xopenme", 
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
           "version": "0.3"
         }
-      }, 
+      },
       "program_version": "1.0.0"
     }
-  }, 
+  },
   "features": {
     "accuracy": 0.653,
-    "accuracy_top5": 0.860,
+    "accuracy_top5": 0.86,
     "fixed_batch_size": 1
-  }, 
+  },
   "files": [
     {
-      "copy_to_app_space": "yes", 
-      "executable": "yes", 
-      "file_size": 7285024, 
-      "filename": "classification", 
-      "from_data_uoa": "fc3c441a959a8d4c", 
-      "md5": "e6f67aefa701129938a5929f5fcdf62f", 
-      "path": "code/73d14b598cc3c16d/arm64-v8a", 
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 7285024,
+      "filename": "classification",
+      "from_data_uoa": "fc3c441a959a8d4c",
+      "md5": "e6f67aefa701129938a5929f5fcdf62f",
+      "path": "code/73d14b598cc3c16d/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
-    }, 
+    },
     {
-      "copy_to_app_space": "yes", 
-      "executable": "yes", 
-      "file_size": 5493548, 
-      "filename": "classification", 
-      "from_data_uoa": "fc3c441a959a8d4c", 
-      "md5": "9b72aa1c181bed430e65cb72f21f6777", 
-      "path": "code/c2f540c84378838d/armeabi-v7a", 
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 5493548,
+      "filename": "classification",
+      "from_data_uoa": "fc3c441a959a8d4c",
+      "md5": "9b72aa1c181bed430e65cb72f21f6777",
+      "path": "code/c2f540c84378838d/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
-    }, 
+    },
     {
-      "copy_to_app_space": "yes", 
-      "executable": "yes", 
-      "file_size": 12952, 
-      "filename": "librtlxopenme.so", 
-      "from_data_uoa": "fc3c441a959a8d4c", 
-      "library": "yes", 
-      "md5": "6ee80b85d45cbe68a77fb237819e9a5c", 
-      "path": "code/434894448bf903ac/arm64-v8a", 
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 12952,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "fc3c441a959a8d4c",
+      "library": "yes",
+      "md5": "6ee80b85d45cbe68a77fb237819e9a5c",
+      "path": "code/434894448bf903ac/arm64-v8a",
       "supported_abi": [
         "arm64-v8a"
       ]
-    }, 
+    },
     {
-      "copy_to_app_space": "yes", 
-      "executable": "yes", 
-      "file_size": 18092, 
-      "filename": "librtlxopenme.so", 
-      "from_data_uoa": "fc3c441a959a8d4c", 
-      "library": "yes", 
-      "md5": "a119e8ce051864bfcc48ea3e4a52e3e3", 
-      "path": "code/434894448bf903ac/armeabi-v7a", 
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 18092,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "fc3c441a959a8d4c",
+      "library": "yes",
+      "md5": "a119e8ce051864bfcc48ea3e4a52e3e3",
+      "path": "code/434894448bf903ac/armeabi-v7a",
       "supported_abi": [
         "armeabi-v7a"
       ]
-    }, 
+    },
     {
-      "default_image": "yes", 
-      "file_size": 7519011, 
-      "filename": "mouse1.jpg", 
-      "from_data_uoa": "c554224c41993982", 
-      "md5": "80e515155abbfe5e2f31ffcb90d40f48", 
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "c554224c41993982",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
       "path": "data/6a8ac49e4891b63d/demo"
-    }, 
+    },
     {
-      "file_size": 10484, 
-      "filename": "labels.txt", 
-      "from_data_uoa": "fc3c441a959a8d4c", 
-      "md5": "295d81f0039772b0c909237eb803b42d", 
+      "file_size": 10484,
+      "filename": "labels.txt",
+      "from_data_uoa": "fc3c441a959a8d4c",
+      "md5": "295d81f0039772b0c909237eb803b42d",
       "path": "data/37512004e52a2e50/labels"
-    }, 
+    },
     {
-      "file_size": 10325016, 
-      "filename": "mobilenet_v1_0.75_160.tflite", 
-      "md5": "f83781f8b58f83a95663da0601227aed", 
-      "path": "data/37512004e52a2e50/model", 
+      "file_size": 10325016,
+      "filename": "mobilenet_v1_0.75_160.tflite",
+      "md5": "f83781f8b58f83a95663da0601227aed",
+      "model_weights": "yes",
+      "path": "data/37512004e52a2e50/model",
       "url": "http://cKnowledge.org/ai/data/mobilenet_v1_0.75_160.tflite"
     }
-  ], 
+  ],
   "min_os_ver": [
     5
-  ], 
-  "model": "MobileNets v1 0.75 160", 
+  ],
+  "model": "MobileNets v1 0.75 160",
   "model_accuracy_url": "https://github.com/tensorflow/models/blob/fe1857cd55b9a8e064ed849405276338ae720659/research/slim/nets/mobilenet_v1.md",
-  "outdated": "no", 
+  "outdated": "no",
   "supported_abi": [
-    "arm64-v8a", 
+    "arm64-v8a",
     "armeabi-v7a"
-  ], 
+  ],
   "title": "TFLite CPU: MobileNets v1 0.75 160"
 }
