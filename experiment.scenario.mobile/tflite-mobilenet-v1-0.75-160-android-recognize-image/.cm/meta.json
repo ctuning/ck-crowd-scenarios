@@ -34,8 +34,8 @@
     }
   }, 
   "features": {
-    "accuracy": 0.0, 
-    "accuracy_top5": 0.0, 
+    "accuracy": 0.653,
+    "accuracy_top5": 0.860,
     "fixed_batch_size": 1
   }, 
   "files": [
@@ -116,6 +116,7 @@
     5
   ], 
   "model": "MobileNets v1 0.75 160", 
+  "model_accuracy_url": "https://github.com/tensorflow/models/blob/fe1857cd55b9a8e064ed849405276338ae720659/research/slim/nets/mobilenet_v1.md",
   "outdated": "no", 
   "supported_abi": [
     "arm64-v8a", 
