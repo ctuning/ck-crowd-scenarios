@@ -34,8 +34,8 @@
     }
   }, 
   "features": {
-    "accuracy": 0.0, 
-    "accuracy_top5": 0.0, 
+    "accuracy": 0.718,
+    "accuracy_top5": 0.910,
     "fixed_batch_size": 1
   }, 
   "files": [
