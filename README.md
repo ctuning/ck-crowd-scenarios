@@ -140,7 +140,7 @@ $ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe OpenCL"
  and/or
 $ ck generate experiment.bench.dnn.mobile --prune_engine="TensorFlow CPU"
  and/or
-$ ck generate experiment.bench.dnn.mobile --prune_engine="TFLite CPU" --target_os=android23-arm64
+$ ck generate experiment.bench.dnn.mobile --prune_engine="TFLite CPU"
 ```
 
 Finally, you should automatically update length of files, their MD5
