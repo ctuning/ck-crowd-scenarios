@@ -143,11 +143,16 @@ $ ck generate experiment.bench.dnn.mobile --prune_engine="TensorFlow CPU"
 $ ck generate experiment.bench.dnn.mobile --prune_engine="TFLite CPU"
 ```
 
-Finally, you should automatically update length of files, their MD5
-and URLs via 
+Finally, you can now automatically update length of files, their MD5
+and URLs for all scenarios as follows:
 
 ```
  $ ck process experiment.scenario.mobile
+```
+
+or for specific ones such as tflite as follows:
+```
+ $ ck process experiment.scenario.mobile:tflite*
 ```
 
 Now, new scenarios should be ready to be used by [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
