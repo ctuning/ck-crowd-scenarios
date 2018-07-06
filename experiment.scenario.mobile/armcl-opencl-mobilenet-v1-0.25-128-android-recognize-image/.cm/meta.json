@@ -63,8 +63,8 @@
     }
   }, 
   "features": {
-    "accuracy": 0.653, 
-    "accuracy_top5": 0.86, 
+    "accuracy": 0.415,
+    "accuracy_top5": 0.663,
     "fixed_batch_size": 1
   }, 
   "files": [
