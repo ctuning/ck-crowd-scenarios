@@ -31,6 +31,35 @@
         }
       },
       "program_version": "1.0.0"
+    },
+    "armeabi-v7a": {
+      "deps_versions": {
+        "compiler": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
+          "version": "4.9.x"
+        },
+        "libjpeg": {
+          "iso_datetime_cut_revision": "20151102-6c0fcb8",
+          "revision": "6c0fcb8",
+          "tags": "lib,libjpeg",
+          "version": "20151002-6c0fcb8"
+        },
+        "library": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,tensorflow-lite,vstatic",
+          "version": "1.7"
+        },
+        "xopenme": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
+          "version": "0.3"
+        }
+      },
+      "program_version": "1.0.0"
     }
   },
   "features": {

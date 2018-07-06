@@ -1,0 +1,228 @@
+{
+  "cmd": "./classification --weights=$#local_path#$/openscience/data/d4207bba5e46b12e/model  --image=$#image#$ --labels=$#local_path#$/openscience/data/37512004e52a2e50/labels/labels.txt --multiplier=1.0 --resolution=224", 
+  "desc": "crowd-benchmarking image recognition using ArmCL Android library for OpenCL and MobileNets v1 1.0 224 model", 
+  "engine": "ArmCL OpenCL", 
+  "engine_meta": {
+    "arm64-v8a": {
+      "deps_versions": {
+        "compiler": {
+          "local": "yes", 
+          "name": "C++ compiler", 
+          "sort": 20, 
+          "tags": "compiler,lang-cpp"
+        }, 
+        "libjpeg": {
+          "local": "yes", 
+          "name": "Jpeg library", 
+          "sort": 40, 
+          "tags": "lib,libjpeg"
+        }, 
+        "library": {
+          "extra_ld_vars": "$<<CK_ENV_LIB_ARMCL_LFLAG_CORE>>$", 
+          "local": "yes", 
+          "name": "Arm Compute Library (OpenCL & Graph APIs)", 
+          "sort": 30, 
+          "tags": "lib,arm-compute-library,vopencl,vgraph"
+        }, 
+        "xopenme": {
+          "local": "yes", 
+          "name": "xOpenME library", 
+          "sort": 100, 
+          "tags": "lib,xopenme"
+        }
+      }, 
+      "program_version": "1.0.0"
+    }, 
+    "armeabi-v7a": {
+      "deps_versions": {
+        "compiler": {
+          "local": "yes", 
+          "name": "C++ compiler", 
+          "sort": 20, 
+          "tags": "compiler,lang-cpp"
+        }, 
+        "libjpeg": {
+          "local": "yes", 
+          "name": "Jpeg library", 
+          "sort": 40, 
+          "tags": "lib,libjpeg"
+        }, 
+        "library": {
+          "extra_ld_vars": "$<<CK_ENV_LIB_ARMCL_LFLAG_CORE>>$", 
+          "local": "yes", 
+          "name": "Arm Compute Library (OpenCL & Graph APIs)", 
+          "sort": 30, 
+          "tags": "lib,arm-compute-library,vopencl,vgraph"
+        }, 
+        "xopenme": {
+          "local": "yes", 
+          "name": "xOpenME library", 
+          "sort": 100, 
+          "tags": "lib,xopenme"
+        }
+      }, 
+      "program_version": "1.0.0"
+    }
+  }, 
+  "features": {
+    "accuracy": 0.709, 
+    "accuracy_top5": 0.899, 
+    "fixed_batch_size": 1
+  }, 
+  "files": [
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 641080, 
+      "filename": "classification", 
+      "md5": "6536446cde3452cdd6d032d5766617b9", 
+      "path": "code/52e081a2142f7829/arm64-v8a", 
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 592072, 
+      "filename": "classification", 
+      "md5": "9a593558decf107094fb897c85bb85c8", 
+      "path": "code/52e081a2142f7829/armeabi-v7a", 
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 12952, 
+      "filename": "librtlxopenme.so", 
+      "from_data_uoa": "fc3c441a959a8d4c", 
+      "library": "yes", 
+      "md5": "6ee80b85d45cbe68a77fb237819e9a5c", 
+      "path": "code/434894448bf903ac/arm64-v8a", 
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 18096, 
+      "filename": "librtlxopenme.so", 
+      "from_data_uoa": "fc3c441a959a8d4c", 
+      "library": "yes", 
+      "md5": "e122fef36591552088200a8e167b4864", 
+      "path": "code/434894448bf903ac/armeabi-v7a", 
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 58053176, 
+      "filename": "libarm_compute.so", 
+      "library": "yes", 
+      "md5": "e6e4698c07c5d49df5abdce182d87547", 
+      "path": "code/f332248cf4eac889/arm64-v8a", 
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 56210008, 
+      "filename": "libarm_compute.so", 
+      "library": "yes", 
+      "md5": "286017382d6e42249210f781d8664024", 
+      "path": "code/f332248cf4eac889/armeabi-v7a", 
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 79158632, 
+      "filename": "libarm_compute_core.so", 
+      "library": "yes", 
+      "md5": "1854084537c652408c54ca5cc9b986fe", 
+      "path": "code/f332248cf4eac889/arm64-v8a", 
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 69272932, 
+      "filename": "libarm_compute_core.so", 
+      "library": "yes", 
+      "md5": "eee4daa4b131df6b951a7a47860131f7", 
+      "path": "code/f332248cf4eac889/armeabi-v7a", 
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 7700744, 
+      "filename": "libgnustl_shared.so", 
+      "library": "yes", 
+      "md5": "8dffa59a3ff9b6a247d40ea9c82e4f5b", 
+      "path": "code/473fb9d28f4cfa89/arm64-v8a", 
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    }, 
+    {
+      "copy_to_app_space": "yes", 
+      "executable": "yes", 
+      "file_size": 5641340, 
+      "filename": "libgnustl_shared.so", 
+      "library": "yes", 
+      "md5": "c438a67fbfd912b52ff15c84eaa12a90", 
+      "path": "code/473fb9d28f4cfa89/armeabi-v7a", 
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    }, 
+    {
+      "default_image": "yes", 
+      "file_size": 7519011, 
+      "filename": "mouse1.jpg", 
+      "from_data_uoa": "c554224c41993982", 
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48", 
+      "path": "data/6a8ac49e4891b63d/demo"
+    }, 
+    {
+      "file_size": 10484, 
+      "filename": "labels.txt", 
+      "from_data_uoa": "fc3c441a959a8d4c", 
+      "md5": "295d81f0039772b0c909237eb803b42d", 
+      "path": "data/37512004e52a2e50/labels"
+    }, 
+    {
+      "file_size": 15837657, 
+      "filename": "mobilenet_v1_1.0_224.npy.zip", 
+      "md5": "763cf92a82be5037e8e5d6e5d0bd6cfb", 
+      "model_weights": "yes", 
+      "path": "data/d4207bba5e46b12e/model", 
+      "unzip": "yes", 
+      "url": "http://cKnowledge.org/ai/data/mobilenet_v1_1.0_224.npy.zip"
+    }
+  ], 
+  "min_os_ver": [
+    5
+  ], 
+  "model": "MobileNets v1 1.0 224", 
+  "outdated": "no", 
+  "supported_abi": [
+    "arm64-v8a", 
+    "armeabi-v7a"
+  ], 
+  "title": "ArmCL 18.05 OpenCL: MobileNets v1 1.0 224"
+}
