@@ -141,6 +141,8 @@ $ ck generate experiment.bench.dnn.mobile --prune_engine="Caffe OpenCL"
 $ ck generate experiment.bench.dnn.mobile --prune_engine="TensorFlow CPU"
  and/or
 $ ck generate experiment.bench.dnn.mobile --prune_engine="TFLite CPU"
+ and/or
+$ ck generate experiment.bench.dnn.mobile --prune_engine="ArmCL OpenCL"
 ```
 
 Finally, you can now automatically update length of files, their MD5
