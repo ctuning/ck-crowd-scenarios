@@ -10,7 +10,7 @@ to let the community participate in [collaborative deep learning optimization](h
 including DNN engines ([Caffe](http://github.com/dividiti/ck-caffe),
 [TensorFlow](http://github.com/ctuning/ck-tensorflow)) and various models
 across diverse mobile devices using 
-[universal experiment crowdsourcing Android app]((https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments)
+[universal experiment crowdsourcing Android app]((http://cKnowledge.org/android-apps.html)
 (see open sources at [GitHub](https://github.com/dividiti/crowdsource-video-experiments-on-android)).
 
 The results (performance, mispredictions, etc) are continuously 
@@ -18,7 +18,7 @@ aggregated in the [open CK repository of knowledge](http://cKnowledge.org/repo).
 
 Normally, you use this repository only for development. Whenever ready, this repository
 is synced at the cKnowledge.org/repo to make scenarios available for update
-in the [Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) -
+in the [Android app](http://cKnowledge.org/android-apps.html) -
 just do not forget to select "Information" -> "Update Scenarios"!
 
 Prerequisites
@@ -54,7 +54,7 @@ $ sudo pip install ck
 Android application
 ===================
 
-* [GooglePlay](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments)
+* [GooglePlay](http://cKnowledge.org/android-apps.html)
 * [GitHub Sources](https://github.com/dividiti/crowdsource-video-experiments-on-android)
 
 Android application let volunteers participate in collaborative benchmarking and optimization
@@ -157,7 +157,7 @@ or for specific ones such as tflite as follows:
  $ ck process experiment.scenario.mobile:tflite*
 ```
 
-Now, new scenarios should be ready to be used by [this Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments) 
+Now, new scenarios should be ready to be used by [this Android app](http://cKnowledge.org/android-apps.html) 
 if updated at the [cKnowledge.org/repo server](http://cKnowledge.org/repo) - contact authors for more details.
 
 Public results
