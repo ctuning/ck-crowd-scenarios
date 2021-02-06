@@ -1,3 +1,7 @@
+**All CK components can be found at [cKnowledge.io](https://cKnowledge.io) and in [one GitHub repository](https://github.com/ctuning/ai)!**
+
+*This project is hosted by the [cTuning foundation](https://cTuning.org).*
+
 CK-powered experiment crowdsourcing scenarios
 =============================================
 
@@ -31,7 +35,7 @@ Prerequisites
 Authors
 =======
 
-* [Grigori Fursin](http://fursin.net/research.html), dividiti/cTuning foundation
+* [Grigori Fursin](http://fursin.net/research.html), cTuning foundation
 * [Anton Lokhmotov](https://www.hipeac.net/~anton), dividiti
 * [Daniil Efremov](http://xored.com), Xored
 
