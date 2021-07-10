@@ -1,4 +1,4 @@
-**All CK components can be found at [cKnowledge.io](https://cKnowledge.io) and in [one GitHub repository](https://github.com/ctuning/ai)!**
+**All CK components can be found at [cKnowledge.io](https://cKnowledge.io) and in [one GitHub repository](https://github.com/ctuning/ck-mlops)!**
 
 *This project is hosted by the [cTuning foundation](https://cTuning.org).*
 
@@ -10,7 +10,7 @@ CK-powered experiment crowdsourcing scenarios
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 This repository contains public scenarios (software and data sets) in the [Collective Knowledge Format](http://cKnowledge.org)
-to let the community participate in [collaborative deep learning optimization](http://cKnowledge.org/ai)
+to let the community participate in [collaborative deep learning optimization](https://cKnowledge.io)
 including DNN engines ([Caffe](http://github.com/dividiti/ck-caffe),
 [TensorFlow](http://github.com/ctuning/ck-tensorflow)) and various models
 across diverse mobile devices using 
